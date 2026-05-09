@@ -1,0 +1,206 @@
+[
+  {
+    "name": "Yamaha FG800",
+    "category": "guitar",
+    "type": "acoustic",
+    "description": "Warm acoustic tone, perfect for beginners.",
+    "image": "images/guitars/acoustic/yamaha_fg800.jpeg",
+    "colors": ["Natural", "Sunburst"]
+  },
+  {
+    "name": "Taylor 214ce",
+    "category": "guitar",
+    "type": "acoustic",
+    "description": "Premium acoustic guitar with rich projection and clarity.",
+    "image": "images/guitars/acoustic/taylor_214ce.jpeg",
+    "colors": ["Natural"]
+  },
+  {
+    "name": "Martin D-28",
+    "category": "guitar",
+    "type": "acoustic",
+    "description": "Legendary dreadnought acoustic with deep bass response.",
+    "image": "images/guitars/acoustic/martin_d-28.jpeg",
+    "colors": ["Natural"]
+  },
+  {
+    "name": "Cedar Warm Acoustic",
+    "description": "Rich warm tone with deep bass response, ideal for fingerstyle and mellow playing.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic1.jpg",
+    "colors": ["Natural", "Dark Brown", "Sunburst"]
+  },
+  {
+    "name": "Spruce Classic Dreadnought",
+    "description": "Powerful projection and bright tone, perfect for strumming and live performance.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic2.jpg",
+    "colors": ["Natural", "Black", "Sunburst"]
+  },
+  {
+    "name": "Mahogany Folk Guitar",
+    "description": "Balanced tone with warm mids, great for songwriting and acoustic sessions.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic3.jpg",
+    "colors": ["Natural", "Walnut"]
+  },
+  {
+    "name": "Grand Auditorium Acoustic",
+    "description": "Versatile body shape offering clarity and comfort for all playing styles.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic4.jpg",
+    "colors": ["Natural", "Cherry Sunburst"]
+  },
+  {
+    "name": "Parlor Vintage Acoustic",
+    "description": "Compact size with vintage tone, perfect for blues and travel musicians.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic5.jpg",
+    "colors": ["Natural", "Antique Burst"]
+  },
+  {
+    "name": "Rosewood Deep Tone Acoustic",
+    "description": "Strong low-end response with rich harmonic overtones.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic6.jpg",
+    "colors": ["Dark Brown", "Natural"]
+  },
+  {
+    "name": "Electro-Acoustic Stage Pro",
+    "description": "Built-in pickup system for live performances and studio recording.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic7.jpg",
+    "colors": ["Black", "Natural"]
+  },
+  {
+    "name": "Slim Neck Acoustic",
+    "description": "Designed for fast playing and comfort, ideal for beginners.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic8.jpg",
+    "colors": ["Natural", "Matte Black"]
+  },
+  {
+    "name": "12-Fret Vintage Acoustic",
+    "description": "Old-school design with warm, resonant vintage tone.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic9.jpg",
+    "colors": ["Sunburst", "Natural"]
+  },
+  {
+    "name": "Premium Studio Acoustic",
+    "description": "High-end acoustic guitar optimized for studio recording clarity.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/acoustic10.jpg",
+    "colors": ["Natural", "Gloss Black"]
+  },
+  {
+    "name": "Cordoba C5",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Nylon-string classical guitar with warm tone.",
+    "image": "images/guitars/classical/cordoba_c5.jpeg",
+    "colors": ["Natural"]
+  },
+  {
+    "name": "Yamaha C40",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Beginner-friendly classical guitar with smooth playability.",
+    "image": "images/guitars/classical/yamaha_c40.jpeg",
+    "colors": ["Natural"]
+  },
+  {
+    "name": "Alhambra 3C",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Spanish-made classical guitar with rich resonance.",
+    "image": "images/guitars/classical/alhambra_3c.jpeg",
+    "colors": ["Natural"]
+  },
+
+  {
+    "name": "Fender Stratocaster",
+    "category": "guitar",
+    "type": "electric",
+    "description": "Iconic electric guitar used in rock and blues.",
+    "image": "images/guitars/electric/electric1.jpg",
+    "colors": ["Black", "Sunburst", "White"]
+  },
+  {
+    "name": "Gibson Les Paul Standard",
+    "category": "guitar",
+    "type": "electric",
+    "description": "Powerful electric guitar with warm sustain.",
+    "image": "images/guitars/electric/electric2.jpg",
+    "colors": ["Gold", "Cherry Sunburst"]
+  },
+
+  {
+    "name": "Stentor Student Violin",
+    "category": "violin",
+    "type": "violin",
+    "description": "Ideal violin for beginners and students.",
+    "image": "images/violins/violin1.jpg",
+    "colors": ["Brown"]
+  },
+  {
+    "name": "Yamaha V5 Violin",
+    "category": "violin",
+    "type": "violin",
+    "description": "Handcrafted violin with balanced tone.",
+    "image": "images/violins/violin2.jpg",
+    "colors": ["Amber"]
+  },
+
+  {
+    "name": "Yamaha P-45",
+    "category": "piano",
+    "type": "digital",
+    "description": "Compact digital piano with weighted keys.",
+    "image": "images/pianos/piano1.jpg",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Casio Privia PX-160",
+    "category": "piano",
+    "type": "digital",
+    "description": "Slim digital piano with realistic piano feel.",
+    "image": "images/pianos/piano2.jpg",
+    "colors": ["Black", "White"]
+  },
+  {
+    "name": "Yamaha U1 Upright",
+    "category": "piano",
+    "type": "acoustic",
+    "description": "Professional upright piano with rich tone.",
+    "image": "images/pianos/piano3.jpg",
+    "colors": ["Polished Black"]
+  },
+
+  {
+    "name": "Pearl Export Drum Kit",
+    "category": "drums",
+    "type": "acoustic",
+    "description": "Complete drum kit for live performance.",
+    "image": "images/drums/drums1.jpg",
+    "colors": ["Black", "Red"]
+  },
+  {
+    "name": "Roland TD-17",
+    "category": "drums",
+    "type": "electronic",
+    "description": "High-quality electronic drum kit.",
+    "image": "images/drums/drums2.jpg",
+    "colors": ["Black"]
+  }
+]

@@ -1,0 +1,870 @@
+/* =========================================================
+   1. RESET & BASE STYLES
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f6f2ea; /* warm premium base */
+    color: #111;
+    overflow-x: hidden;
+}
+
+/* =========================================================
+   2. NAVBAR
+========================================================= */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 18px 60px;
+
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(14px);
+
+    border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo-img {
+    width: 36px;
+    height: 36px;
+}
+
+.site-title {
+    color: white;
+    font-size: 22px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgba(255,255,255,0.85);
+    text-decoration: none;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+    color: #f0b429;
+}
+
+.menu-toggle {
+    display: none;
+    font-size: 30px;
+    color: white;
+}
+
+/* =========================================================
+   3. HERO
+========================================================= */
+
+.hero {
+    height: 100vh;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+        url("../images/hero.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 70px;
+}
+
+.hero-content p {
+    font-size: 22px;
+    margin: 20px 0;
+}
+
+.hero-btn {
+    padding: 16px 34px;
+    background: #f0b429;
+    color: black;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+/* =========================================================
+   4. STICKY HEADER (SLIM TOOLBAR STYLE)
+========================================================= */
+
+.sticky-header {
+    position: sticky;
+    top: 70px;
+    z-index: 999;
+
+    background: linear-gradient(180deg, #f3ede3, #e9e4db);
+    backdrop-filter: blur(14px);
+
+    padding: 8px 0; /* 🔥 slimmer */
+
+    border-bottom: 1px solid rgba(0,0,0,0.08);
+
+    box-shadow: 0 6px 18px rgba(0,0,0,0.04);
+}
+
+/* =========================================================
+   BROWSE TITLE (MAKE IT LESS DOMINANT)
+========================================================= */
+
+.catalog-header {
+    width: 100%;
+    padding: 18px 20px 6px; /* 🔥 reduced */
+
+    text-align: center;
+}
+
+.catalog-title {
+    font-size: 40px; /* 🔥 smaller than 48 */
+    font-weight: 800;
+
+    letter-spacing: 0.5px;
+    color: #111;
+}
+
+/* =========================================================
+   SEARCH + FILTERS (COMPACT TOOLBAR)
+========================================================= */
+
+.search-section {
+    width: 100%;
+    padding: 10px 20px 14px; /* 🔥 tighter */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 10px; /* clean spacing */
+}
+
+/* =========================================================
+   SEARCH BAR (MORE MODERN + SLIM)
+========================================================= */
+
+#search {
+    width: 100%;
+    max-width: 650px; /* tighter feel */
+
+    padding: 12px 14px; /* 🔥 reduced height */
+
+    border-radius: 12px;
+
+    border: 1px solid rgba(0,0,0,0.1);
+
+    text-align: center;
+
+    background: #fffdf8;
+
+    box-shadow: 0 6px 15px rgba(0,0,0,0.05);
+
+    outline: none;
+
+    transition: 0.2s ease;
+}
+
+#search:focus {
+    border-color: #f0b429;
+    box-shadow: 0 8px 22px rgba(240,180,41,0.22);
+}
+
+/* =========================================================
+   FILTER BUTTONS (CHIP STYLE, TIGHT)
+========================================================= */
+
+.categories {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 8px; /* 🔥 tighter spacing */
+
+    margin-top: 0;
+}
+
+.categories button {
+    padding: 7px 14px; /* 🔥 smaller pills */
+
+    border-radius: 999px;
+
+    border: none;
+
+    background: #1a1a1a;
+    color: white;
+
+    font-size: 12px;
+    font-weight: 500;
+
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.categories button:hover,
+.categories button.active {
+    background: #f0b429;
+    color: #111;
+    transform: scale(1.03);
+}
+
+/* =========================================================
+   5. CATALOG SECTION (KEEP SEPARATION CLEAN)
+========================================================= */
+
+.catalog-section {
+    width: 100%;
+    padding: 60px 50px 90px;
+
+    background: #e7ddd0;
+}
+/* =========================================================
+   6. CATEGORY ROWS
+========================================================= */
+
+.category-section {
+    margin-bottom: 70px;
+}
+
+.main-category-title {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.subcategory-title {
+    font-size: 22px;
+    margin: 25px 0 15px;
+    color: #444;
+}
+
+.row-cards {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.row-cards::-webkit-scrollbar {
+    height: 8px;
+}
+
+.row-cards::-webkit-scrollbar-thumb {
+    background: #aaa;
+    border-radius: 10px;
+}
+
+/* =========================================================
+   7. CARDS (IMPROVED + PREMIUM + LESS EMPTY)
+========================================================= */
+
+/* =========================================================
+   7. CARDS (SHORT PREVIEW STYLE)
+========================================================= */
+
+.card {
+    min-width: 250px;
+    height: 320px; /* 🔥 reduced from 420px */
+
+    background: #fffdf8;
+    border-radius: 18px;
+    overflow: hidden;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+
+    transition: 0.35s ease;
+    cursor: pointer;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card img {
+    width: 100%;
+    height: 160px; /* 🔥 smaller image */
+    object-fit: cover;
+}
+
+.card h3 {
+    padding: 10px 12px 4px;
+    font-size: 16px;
+}
+
+/* 🔥 SHORT DESCRIPTION PREVIEW */
+.card p {
+    padding: 0 12px;
+    font-size: 13px;
+    color: #666;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* only 2 lines */
+    -webkit-box-orient: vertical;
+
+    overflow: hidden;
+
+    flex-grow: 0;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background: #f0b429;
+    box-shadow:
+    0 18px 40px rgba(0,0,0,0.18),
+    0 8px 18px rgba(240,180,41,0.25);
+}
+
+/* MOBILE TAP FEEL (like app press) */
+.card:active {
+    transform: scale(0.97);
+}
+
+/* HOVER FIX */
+.card:hover .color-pill {
+    background: white;
+    color: #111;
+}
+
+/* =========================================================
+   8. COLORS
+========================================================= */
+
+.colors {
+    padding: 12px 15px 15px;
+}
+
+.colors-label {
+    font-size: 13px;
+    font-weight: bold;
+    color: #444;
+    margin-bottom: 6px;
+    display: block;
+}
+
+.color-pill {
+    display: inline-block;
+    margin: 3px 5px 0 0;
+
+    padding: 5px 10px;
+    border-radius: 999px;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    background: #f0b429;
+    color: #111;
+}
+
+/* =========================================================
+   9. MODAL
+========================================================= */
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal.active {
+    display: flex;
+}
+
+.modal-content {
+    background: #fffdf8;
+
+    width: 92%;
+    max-width: 850px;
+
+    border-radius: 28px;
+    overflow: hidden;
+
+    position: relative;
+
+    box-shadow:
+        0 30px 80px rgba(0,0,0,0.35),
+        0 10px 30px rgba(0,0,0,0.12);
+
+    /* smoother, more premium feel */
+    transform: scale(0.96);
+    opacity: 0;
+
+    animation: modalAppear 0.35s ease forwards;
+}
+
+.modal-content img {
+    width: 100%;
+    height: 420px;
+
+    object-fit: cover;
+
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+}
+
+.modal-body {
+    padding: 35px;
+}
+
+.modal-body h2 {
+    font-size: 34px;
+    margin-bottom: 14px;
+
+    color: #111;
+}
+
+.modal-body p {
+    font-size: 16px;
+    line-height: 1.7;
+
+    color: #555;
+
+    margin-bottom: 24px;
+}
+
+.modal-colors {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.close-btn {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+
+    width: 42px;
+    height: 42px;
+
+    border-radius: 50%;
+
+    background: rgba(0,0,0,0.55);
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 26px;
+    cursor: pointer;
+
+    backdrop-filter: blur(10px);
+
+    transition: 0.25s ease;
+}
+
+.close-btn:hover {
+    background: #f0b429;
+    color: black;
+}
+
+/* =========================================================
+   LOCK PAGE SCROLL WHEN MODAL IS OPEN
+========================================================= */
+
+body.modal-open {
+    overflow: hidden;
+}
+
+/* =========================================================
+   10. FOOTER
+========================================================= */
+
+footer {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 28px;
+    margin-top: 70px;
+}
+
+/* =========================================================
+   11. RESPONSIVE
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .hero-content h2 {
+        font-size: 48px;
+    }
+
+    #search {
+        width: 92%;
+    }
+
+    .catalog-section {
+        padding: 50px 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .hero-content h2 {
+        font-size: 38px;
+    }
+
+    .catalog-title {
+        font-size: 38px;
+    }
+}
+
+/* =========================================================
+   12. ABOUT PAGE (IMPROVED LAYOUT)
+========================================================= */
+
+.page-hero {
+    height: 80vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: white;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.55),
+            rgba(0,0,0,0.55)
+        ),
+        url("../images/shop.jpeg");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 0 20px;
+}
+
+.page-hero h2 {
+    font-size: 52px;
+    letter-spacing: 1px;
+}
+
+.page-hero p {
+    font-size: 18px;
+    opacity: 0.85;
+    margin-top: 10px;
+}
+
+/* ABOUT CONTENT → 2x2 Grid */
+.about-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 90px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+/* ALL BOXES */
+.about-box {
+    background: #fffdf8;
+
+    padding: 35px;
+    border-radius: 20px;
+
+    box-shadow:
+        0 8px 20px rgba(0,0,0,0.08),
+        0 2px 6px rgba(0,0,0,0.06),
+        inset 0 0 0 1px rgba(255,255,255,0.35);
+
+    transition: 0.3s ease;
+}
+
+.about-box:hover {
+    transform: translateY(-6px);
+}
+
+/* =========================================================
+   13. CONTACT PAGE (NEW STRUCTURE)
+========================================================= */
+
+.contact-hero {
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    text-align: center;
+    color: white;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),
+        url("../images/location.jpeg"); 
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    padding: 0 20px;
+}
+
+.contact-hero h2 {
+    font-size: 52px;
+}
+
+/* CONTACT LAYOUT → MORE MODERN GRID */
+.contact-section {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    padding: 90px 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+/* LEFT SIDE INFO CARD */
+.contact-card {
+    background: #fffdf8;
+
+    padding: 35px;
+    border-radius: 20px;
+
+    box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+
+    transition: 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-6px);
+}
+
+/* DARK CARD (HIGHLIGHT INFO OR MAP) */
+.contact-card.dark {
+    background: #111;
+    color: white;
+}
+
+/* MAP FULL WIDTH FEEL */
+.map iframe {
+    width: 100%;
+    height: 280px;
+
+    border: none;
+    border-radius: 14px;
+
+    margin-top: 15px;
+}
+
+/* =========================================================
+   14. RESPONSIVE (UPDATED LAYOUT FIX)
+========================================================= */
+
+@media (max-width: 900px) {
+
+    .about-content {
+        grid-template-columns: 1fr;
+    }
+
+    .about-box:first-child {
+        grid-column: span 1;
+    }
+
+    .contact-section {
+        grid-template-columns: 1fr;
+    }
+
+    .page-hero h2,
+    .contact-hero h2 {
+        font-size: 38px;
+    }
+}
+
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes modalAppear {
+    from {
+        opacity: 0;
+        transform: scale(0.92) translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+    }
+}
+
+/* =========================================================
+   LOCK BACKGROUND WHEN MODAL IS OPEN
+========================================================= */
+
+body.modal-open .sticky-header,
+body.modal-open .catalog-header,
+body.modal-open .search-section {
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: 0.25s ease;
+}
+
+/* =========================================================
+   FOCUS MODE WHEN MODAL IS OPEN
+========================================================= */
+
+body.modal-open .navbar {
+    opacity: 0;
+    transform: translateY(-20px);
+    pointer-events: none;
+    transition: 0.25s ease;
+}
+
+/* ensure modal is perfectly centered even with navbar */
+.modal {
+    align-items: center;
+    padding-top: 0;
+}
+
+/* =========================================================
+   ANIMATIONS
+========================================================= */
+
+@keyframes modalAppear {
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+/* =========================================================
+   MOBILE UX FIXES
+========================================================= */
+
+@media (max-width: 600px) {
+
+    /* make cards smaller and easier to scroll */
+    .card {
+        min-width: 220px;
+        height: 380px;
+    }
+
+    /* reduce heavy image height */
+    .card img {
+        height: 160px;
+    }
+
+    /* make modal fit screen better */
+    .modal-content {
+        width: 95%;
+        max-height: 90vh;
+        overflow-y: auto;
+    }
+
+    .modal-content img {
+        height: 220px;
+    }
+
+    /* reduce sticky header pressure */
+    .catalog-title {
+        font-size: 32px;
+    }
+
+    #search {
+        font-size: 14px;
+        padding: 12px;
+    }
+
+    .categories button {
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+}
+
+/* =========================================================
+   ROW WRAPPER (FOR ARROWS)
+========================================================= */
+
+.row-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+/* =========================================================
+   ROW ARROWS
+========================================================= */
+
+.row-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 40px;
+    height: 40px;
+
+    border: none;
+    border-radius: 50%;
+
+    background: rgba(0,0,0,0.6);
+    color: white;
+
+    font-size: 22px;
+    cursor: pointer;
+
+    z-index: 10;
+
+    transition: 0.2s ease;
+}
+
+.row-arrow:hover {
+    background: #f0b429;
+    color: black;
+}
+
+/* LEFT */
+.row-arrow.left {
+    left: -15px;
+}
+
+/* RIGHT */
+.row-arrow.right {
+    right: -15px;
+}
