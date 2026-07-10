@@ -49,23 +49,25 @@ function applyFilters() {
     // SEARCH FILTER (FIXED LOGIC)
     if (currentSearch.trim() !== "") {
 
-        const q = currentSearch.toLowerCase().trim();
+    const q = currentSearch.toLowerCase().trim();
 
-        filtered = filtered.filter(item => {
+    filtered = filtered.filter(item => {
 
-            const name = (item.name || "").toLowerCase();
-            const category = (item.category || "").toLowerCase();
-            const type = (item.type || "").toLowerCase();
+        const name = (item.name || "").toLowerCase();
+        const category = (item.category || "").toLowerCase();
+        const type = (item.type || "").toLowerCase();
 
-            // 🔥 MAIN FIX:
-            // match ONLY if starts with the letter OR word starts with it
-            return (
-                name.startsWith(q) ||
-                category.startsWith(q) ||
-                type.startsWith(q)
-            );
-        });
-    }
+        const nameMatch = name
+            .split(" ")
+            .some(word => word.startsWith(q));
+
+        return (
+            nameMatch ||
+            category.startsWith(q) ||
+            type.startsWith(q)
+        );
+    });
+}
 
     displayInstruments(filtered);
 }
