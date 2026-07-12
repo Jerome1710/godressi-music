@@ -286,10 +286,6 @@ body {
 }
 
 /* =========================================================
-   7. CARDS (IMPROVED + PREMIUM + LESS EMPTY)
-========================================================= */
-
-/* =========================================================
    7. CARDS (SHORT PREVIEW STYLE)
 ========================================================= */
 
@@ -312,8 +308,12 @@ body {
 
 .card img {
     width: 100%;
-    height: 160px; /* 🔥 smaller image */
-    object-fit: cover;
+    height: 160px;
+
+    object-fit: contain;
+    object-position: center;
+
+    background: #fffdf8;
 }
 
 .card h3 {
@@ -353,6 +353,35 @@ body {
 .card:hover .color-pill {
     background: white;
     color: #111;
+}
+
+/* =========================================================
+   PIANO DETAILS BUTTON
+========================================================= */
+
+.details-btn {
+    margin: 10px 12px;
+
+    padding: 10px 15px;
+
+    border: none;
+    border-radius: 10px;
+
+    background: #f0b429;
+    color: #111;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: 0.25s ease;
+}
+
+.details-btn:hover {
+    background: #111;
+    color: white;
+
+    transform: scale(1.05);
 }
 
 /* =========================================================
@@ -429,9 +458,10 @@ body {
     width: 100%;
     height: 420px;
 
-    object-fit: cover;
+    object-fit: contain;
+    object-position: center;
 
-    border-bottom: 1px solid rgba(0,0,0,0.06);
+    background: #fffdf8;
 }
 
 .modal-body {

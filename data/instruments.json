@@ -163,12 +163,13 @@
   },
 
   {
-    "name": "Yamaha P-45",
+    "name": "Galileo H7",
     "category": "piano",
     "type": "digital",
-    "description": "Compact digital piano with weighted keys.",
-    "image": "images/pianos/piano1.jpg",
-    "colors": ["Black"]
+    "description": "Digital piano with realistic touch and high-quality sound.",
+    "image": "images/pianos/galileo_h7.png",
+    "colors": ["Black"],
+    "detailsImage": "images/pianos/galileo_h7_details.png"
   },
   {
     "name": "Casio Privia PX-160",
@@ -176,7 +177,8 @@
     "type": "digital",
     "description": "Slim digital piano with realistic piano feel.",
     "image": "images/pianos/piano2.jpg",
-    "colors": ["Black", "White"]
+    "colors": ["Black", "White"],
+    "detailsImage": "images/pianos/yamaha_u1_details.jpg"
   },
   {
     "name": "Yamaha U1 Upright",
@@ -184,8 +186,9 @@
     "type": "acoustic",
     "description": "Professional upright piano with rich tone.",
     "image": "images/pianos/piano3.jpg",
-    "colors": ["Polished Black"]
-  },
+    "colors": ["Polished Black"],
+    "detailsImage": "images/pianos/yamaha_u1_details.jpg"
+},
 
   {
     "name": "Pearl Export Drum Kit",

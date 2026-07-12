@@ -104,13 +104,14 @@ function displayInstruments(instruments) {
         grouped[category][type].push(item);
     });
 
+
     Object.keys(grouped).forEach(category => {
 
         const categorySection = document.createElement("section");
         categorySection.className = "category-section";
 
-        /* category id for scrolling */
         categorySection.id = `category-${category}`;
+
 
         const categoryTitle = document.createElement("h2");
         categoryTitle.className = "main-category-title";
@@ -118,72 +119,174 @@ function displayInstruments(instruments) {
 
         categorySection.appendChild(categoryTitle);
 
+
         Object.keys(grouped[category]).forEach(type => {
 
             const subTitle = document.createElement("h3");
             subTitle.className = "subcategory-title";
+
             subTitle.innerText =
                 type.charAt(0).toUpperCase() + type.slice(1);
 
             categorySection.appendChild(subTitle);
 
+
             const rowWrapper = document.createElement("div");
             rowWrapper.className = "row-wrapper";
 
-            /* LEFT ARROW */
+
             const leftBtn = document.createElement("button");
             leftBtn.className = "row-arrow left";
             leftBtn.innerHTML = "‹";
 
-            /* RIGHT ARROW */
+
             const rightBtn = document.createElement("button");
             rightBtn.className = "row-arrow right";
             rightBtn.innerHTML = "›";
 
-            /* ROW */
+
             const row = document.createElement("div");
             row.className = "row-cards";
+
 
             leftBtn.onclick = () => scrollRow(row, -1);
             rightBtn.onclick = () => scrollRow(row, 1);
 
+
+
             grouped[category][type].forEach(item => {
+
 
                 const card = document.createElement("div");
 
                 card.className = "card";
-                card.setAttribute("data-category", item.category);
+
+                card.setAttribute(
+                    "data-category",
+                    item.category
+                );
+
 
                 card.onclick = () => openModal(item);
 
+
+
                 card.innerHTML = `
+
                     <img src="${item.image}" alt="${item.name}">
+
                     <h3>${item.name}</h3>
+
                     <p>${item.description}</p>
+
+
                     <div class="colors">
-                        <span class="colors-label">Colors:</span>
+
+                        <span class="colors-label">
+                            Colors:
+                        </span>
+
 
                         ${
                             item.colors && item.colors.length > 0
-                                ? item.colors.map(color => `<span class="color-pill">${color}</span>`).join("")
-                                : `<span class="color-pill">N/A</span>`
+                            ?
+                            item.colors
+                                .map(color =>
+                                    `<span class="color-pill">${color}</span>`
+                                )
+                                .join("")
+                            :
+                            `<span class="color-pill">N/A</span>`
                         }
+
                     </div>
+
+
+
+                    ${
+                        item.category === "piano" && item.detailsImage
+                        ?
+                        `
+                        <button class="details-btn">
+                            View Details
+                        </button>
+                        `
+                        :
+                        ""
+                    }
+
                 `;
 
+
+
+                // PIANO DETAILS BUTTON ONLY
+                if (item.category === "piano" && item.detailsImage) {
+
+                    const btn =
+                        card.querySelector(".details-btn");
+
+
+                    btn.onclick = (e) => {
+
+                        e.stopPropagation();
+
+                        openDetailsModal(item);
+
+                    };
+
+                }
+
+
+
                 row.appendChild(card);
+
             });
 
+
+
             rowWrapper.appendChild(leftBtn);
-            rowWrapper.appendChild(row); 
+
+            rowWrapper.appendChild(row);
+
             rowWrapper.appendChild(rightBtn);
+
 
             categorySection.appendChild(rowWrapper);
 
         });
 
+
         container.appendChild(categorySection);
+
     });
+
+}
+
+
+
+// =========================================================
+// OPEN PIANO DETAILS IMAGE
+// =========================================================
+
+function openDetailsModal(item) {
+
+    document.getElementById("modalImage").src =
+        item.detailsImage;
+
+
+    document.getElementById("modalTitle").innerText =
+        item.name;
+
+
+    document.getElementById("modalDescription").innerText =
+        "";
+
+
+    document.getElementById("productModal")
+        .classList.add("active");
+
+
+    document.body.classList.add("modal-open");
 
 }
 
