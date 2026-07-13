@@ -204,7 +204,7 @@ function displayInstruments(instruments) {
 
 
                     ${
-                        item.category === "piano" && item.detailsImage
+                        (item.category === "piano" || item.category === "drums") && item.detailsImage
                         ?
                         `
                         <button class="details-btn">
@@ -220,7 +220,7 @@ function displayInstruments(instruments) {
 
 
                 // PIANO DETAILS BUTTON ONLY
-                if (item.category === "piano" && item.detailsImage) {
+                if ((item.category === "piano" || item.category === "drums") && item.detailsImage) {
 
                     const btn =
                         card.querySelector(".details-btn");

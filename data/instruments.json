@@ -172,38 +172,58 @@
     "detailsImage": "images/pianos/galileo_h7_details.png"
   },
   {
-    "name": "Casio Privia PX-160",
+    "name": "Galileo M8",
     "category": "piano",
     "type": "digital",
-    "description": "Slim digital piano with realistic piano feel.",
-    "image": "images/pianos/piano2.jpg",
+    "description": "Digital piano with realistic touch, rich sound, and modern features.",
+    "image": "images/pianos/galileo_m8.png",
     "colors": ["Black", "White"],
-    "detailsImage": "images/pianos/yamaha_u1_details.jpg"
+    "detailsImage": "images/pianos/galileo_m8_details.png"
   },
   {
-    "name": "Yamaha U1 Upright",
+    "name": "Galileo MG310 Grand Piano",
     "category": "piano",
-    "type": "acoustic",
-    "description": "Professional upright piano with rich tone.",
-    "image": "images/pianos/piano3.jpg",
+    "type": "digital",
+    "description": "Elegant digital grand piano offering an authentic playing experience with rich, expressive sound.",
+    "image": "images/pianos/galileo_mg310.png",
     "colors": ["Polished Black"],
-    "detailsImage": "images/pianos/yamaha_u1_details.jpg"
-},
+    "detailsImage": "images/pianos/galileo_mg310_details.png"
+  },
+  {
+    "name": "Galileo S8 Stage Piano",
+    "category": "piano",
+    "type": "digital",
+    "description": "Professional stage piano designed for live performance with responsive keys and premium piano tones.",
+    "image": "images/pianos/galileo_s8.png",
+    "colors": ["Black"],
+    "detailsImage": "images/pianos/galileo_s8_details.png"
+  },
+  {
+    "name": "Galileo V30 Digital Piano",
+    "category": "piano",
+    "type": "digital",
+    "description": "Modern home digital piano combining realistic touch, expressive sound, and a sleek contemporary design.",
+    "image": "images/pianos/galileo_v30.png",
+    "colors": ["Black"],
+    "detailsImage": "images/pianos/galileo_v30_details.png"
+  },
 
   {
-    "name": "Pearl Export Drum Kit",
-    "category": "drums",
-    "type": "acoustic",
-    "description": "Complete drum kit for live performance.",
-    "image": "images/drums/drums1.jpg",
-    "colors": ["Black", "Red"]
+      "name": "XD-380 Drum Kit",
+      "category": "drums",
+      "type": "acoustic",
+      "description": "Complete acoustic drum kit designed for practice, recording, and live performances.",
+      "image": "images/drums/xd_380.png",
+      "colors": ["Black"],
+      "detailsImage": "images/drums/xd_380_details.png"
   },
   {
-    "name": "Roland TD-17",
+    "name": "XD-460",
     "category": "drums",
     "type": "electronic",
-    "description": "High-quality electronic drum kit.",
-    "image": "images/drums/drums2.jpg",
-    "colors": ["Black"]
+    "description": "Electronic drum kit with responsive mesh pads, realistic sound, and versatile practice features.",
+    "image": "images/drums/xd_460.png",
+    "colors": ["Black"],
+    "detailsImage": "images/drums/xd_460_details.png"
   }
 ]
