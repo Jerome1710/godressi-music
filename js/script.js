@@ -204,7 +204,7 @@ function displayInstruments(instruments) {
 
 
                     ${
-                        (item.category === "piano" || item.category === "drums") && item.detailsImage
+                        (item.category === "piano" || item.category === "drums" || item.category === "guitar") && item.detailsImage
                         ?
                         `
                         <button class="details-btn">
@@ -219,8 +219,8 @@ function displayInstruments(instruments) {
 
 
 
-                // PIANO DETAILS BUTTON ONLY
-                if ((item.category === "piano" || item.category === "drums") && item.detailsImage) {
+                // PIANO - GUITAR - DRUMS DETAILS BUTTON ONLY
+                if ((item.category === "piano" || item.category === "drums" || item.category === "guitar") && item.detailsImage) {
 
                     const btn =
                         card.querySelector(".details-btn");

@@ -113,20 +113,85 @@
     "detailsImage": "images/guitars/classical/paco_castillo_201_details.png"
   },
   {
-    "name": "Yamaha C40",
+    "name": "Paco Castillo 202",
     "category": "guitar",
     "type": "classical",
-    "description": "Beginner-friendly classical guitar with smooth playability.",
-    "image": "images/guitars/classical/yamaha_c40.jpeg",
-    "colors": ["Natural"]
+    "description": "Premium handcrafted classical guitar with a solid Canadian red cedar top, sapele back and sides, and an Indian rosewood fingerboard for a warm, expressive tone and excellent playability.",
+    "image": "images/guitars/classical/paco_castillo_202.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_202_details.png"
   },
   {
-    "name": "Alhambra 3C",
+    "name": "Paco Castillo 203",
     "category": "guitar",
     "type": "classical",
-    "description": "Spanish-made classical guitar with rich resonance.",
-    "image": "images/guitars/classical/alhambra_3c.jpeg",
-    "colors": ["Natural"]
+    "description": "Premium handcrafted classical guitar featuring a solid Canadian red cedar top, Indian rosewood back and sides, and gold-plated tuners for a rich, warm tone with exceptional projection and sustain.",
+    "image": "images/guitars/classical/paco_castillo_203.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_203_details.png"
+  },
+  {
+    "name": "Paco Castillo 204",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Professional handcrafted classical guitar with a solid Canadian red cedar top, Indian rosewood back and sides, ebony fingerboard, and gold-plated tuners for exceptional warmth, clarity, and projection.",
+    "image": "images/guitars/classical/paco_castillo_204.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_204_details.png"
+  },
+  {
+    "name": "Paco Castillo 205",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Professional classical guitar featuring a solid Canadian red cedar top, solid Indian rosewood back and sides, ebony fingerboard, and premium hardware for outstanding tone and responsiveness.",
+    "image": "images/guitars/classical/paco_castillo_205.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_205_details.png"
+  },
+  {
+    "name": "Paco Castillo 240",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Professional handcrafted classical guitar with a solid Canadian red cedar top, solid Indian rosewood body, ebony fingerboard, and luxury tuners, offering rich resonance and superior craftsmanship.",
+    "image": "images/guitars/classical/paco_castillo_240.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_240_details.png"
+  },
+  {
+    "name": "Paco Castillo 211F",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Advanced flamenco classical guitar with a solid spruce top, sycamore back and sides, and a fast-playing neck for bright, percussive response.",
+    "image": "images/guitars/classical/paco_castillo_211f.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_211f_details.png"
+  },
+  {
+    "name": "Paco Castillo 213F",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Professional flamenco guitar featuring a solid spruce top, maple back and sides, and gold-plated tuners, delivering crisp attack and traditional flamenco character.",
+    "image": "images/guitars/classical/paco_castillo_213f.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_213f_details.png"
+  },
+  {
+    "name": "Paco Castillo 222CE",
+    "category": "guitar",
+    "type": "classical-electric",
+    "description": "Advanced cutaway classical-electric guitar with a solid Canadian red cedar top, Fishman Clásica III electronics, and excellent amplified performance.",
+    "image": "images/guitars/classical/paco_castillo_222ce.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_222ce_details.png"
+  },
+  {
+    "name": "Paco Castillo 232TE",
+    "category": "guitar",
+    "type": "classical-electric",
+    "description": "Professional cutaway classical-electric guitar featuring a solid Canadian red cedar top, Fishman Clásica III electronics, and warm acoustic tone with reliable stage performance.",
+    "image": "images/guitars/classical/paco_castillo_232te.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_232te_details.png"
   },
 
   {
@@ -211,7 +276,7 @@
 
   {
     "name": "5-Piece Drum Set",
-    "description": "Complete acoustic drum set featuring durable poplar plywood shells, steel hardware, cymbals, drum throne, and drumsticks—ideal for beginners, schools, and practice.",
+    "description": "Complete acoustic drum set featuring durable poplar plywood shells, steel hardware, cymbals, drum throne, and drumsticks—ideal for beginners, intermediate, schools, and practice.",
     "category": "drums",
     "type": "acoustic",
     "image": "images/drums/classic/maxtone_5piece_drum_set.png",
