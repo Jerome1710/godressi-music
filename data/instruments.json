@@ -180,18 +180,18 @@
     "category": "guitar",
     "type": "classical-electric",
     "description": "Advanced cutaway classical-electric guitar with a solid Canadian red cedar top, Fishman Clásica III electronics, and excellent amplified performance.",
-    "image": "images/guitars/classical/paco_castillo_222ce.jpg",
+    "image": "images/guitars/classical-electric/paco_castillo_222ce.jpg",
     "colors": ["Natural"],
-    "detailsImage": "images/guitars/classical/paco_castillo_222ce_details.png"
+    "detailsImage": "images/guitars/classical-electric/paco_castillo_222ce_details.png"
   },
   {
     "name": "Paco Castillo 232TE",
     "category": "guitar",
     "type": "classical-electric",
     "description": "Professional cutaway classical-electric guitar featuring a solid Canadian red cedar top, Fishman Clásica III electronics, and warm acoustic tone with reliable stage performance.",
-    "image": "images/guitars/classical/paco_castillo_232te.jpg",
+    "image": "images/guitars/classical-electric/paco_castillo_232te.jpg",
     "colors": ["Natural"],
-    "detailsImage": "images/guitars/classical/paco_castillo_232te_details.png"
+    "detailsImage": "images/guitars/classical-electric/paco_castillo_232te_details.png"
   },
 
   {
@@ -279,7 +279,7 @@
     "description": "Complete acoustic drum set featuring durable poplar plywood shells, steel hardware, cymbals, drum throne, and drumsticks—ideal for beginners, intermediate, schools, and practice.",
     "category": "drums",
     "type": "acoustic",
-    "image": "images/drums/classic/maxtone_5piece_drum_set.png",
+    "image": "images/drums/acoustic/maxtone_5piece_drum_set.png",
     "colors": ["Black"]
   },
   {
