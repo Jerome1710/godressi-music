@@ -283,6 +283,14 @@
     "colors": ["Black"]
   },
   {
+    "name": "Junior Drum Set",
+    "description": "Compact acoustic drum set designed for young beginners, featuring durable poplar plywood shells and complete hardware for an enjoyable first drumming experience.",
+    "category": "drums",
+    "type": "acoustic",
+    "image": "images/drums/acoustic/maxtone_junior_drum_set.png",
+    "colors": ["Black"]
+  },
+  {
       "name": "XD-380 Drum Kit",
       "category": "drums",
       "type": "electric",
@@ -299,5 +307,142 @@
     "image": "images/drums/electric/xd_460.png",
     "colors": ["Black"],
     "detailsImage": "images/drums/xd_460_details.png"
+  },
+  {
+    "name": "Marching Drum",
+    "description": "Professional marching drum series designed for school bands, parades, and marching ensembles. Available in bass, tenor, and snare configurations with multiple sizes for every performance need.",
+    "category": "drums",
+    "type": "marching",
+    "image": "images/drums/marching/maxtone_marching_drum.png",
+    "colors": ["White", "Black", "Red"]
+  },
+  {
+    "name": "3-Piece Marching Drum Set",
+    "description": "Compact 3-piece marching drum set with carrier, designed for school bands, marching ensembles, and parade performances. Lightweight construction with durable hardware for reliable outdoor use.",
+    "category": "drums",
+    "type": "marching",
+    "image": "images/drums/marching/maxtone_src816.png",
+    "colors": ["White"]
+  },
+  {
+    "name": "Quint Marching Drum Set",
+    "description": "Professional five-drum marching set designed for marching bands, drum corps, and school ensembles. Features lightweight construction with an ergonomic carrier for comfort during performances.",
+    "category": "drums",
+    "type": "marching",
+    "image": "images/drums/marching/maxtone_src817.png",
+    "colors": ["White"]
+  },
+  {
+    "name": "Rototom Set",
+    "description": "Professional rototom drum set with chrome-plated hardware and adjustable tuning system, ideal for orchestral percussion, concert bands, marching ensembles, and live performances.",
+    "category": "drums",
+    "type": "rototom",
+    "image": "images/drums/rototom/maxtone_rt68b.png",
+    "colors": ["Chrome"]
+  },
+  {
+    "name": "Single Tom Drum",
+    "description": "Professional single tom drum designed for drum set expansion or replacement, featuring durable construction and a bright, balanced tone suitable for practice and live performance.",
+    "category": "drums",
+    "type": "tom",
+    "image": "images/drums/toms/maxtone_lt156c.png",
+    "colors": ["Black", "Red", "White"]
+  },
+  {
+    "name": "Educational Rhythm Band Set",
+    "description": "Complete classroom rhythm instrument set designed for music education, group activities, and early percussion training.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_208_series.png",
+    "colors": ["Natural Wood", "Red","Yellow", "Blue", "Green", "Black","White"]
+  },
+  {
+    "name": "Practice Drum Pad",
+    "description": "Portable practice drum pad designed for developing stick control, timing, and technique. Features a realistic playing surface and compact design for quiet practice at home, school, or on the go.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_dp2020.png",
+    "colors": ["Gray", "Black"]
+  },
+  {
+    "name": "Educational Practice Pad",
+    "description": "Educational practice pad designed for developing rhythm, stick control, and drumming fundamentals in classrooms, music schools, and individual practice.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_dp2020tw.png",
+    "colors": ["Gray", "Black"]
+  },
+  {
+    "name": "Drum Parts Series",
+    "description": "Replacement drum parts designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for schools, music stores, and professional drummers.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_c_series.png",
+    "colors": ["Chrome", "Black"]
+  },
+  {
+    "name": "Drum Parts Series",
+    "description": "Collection of replacement drum components designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for music schools, workshops, and professional drummers.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_cd_series.png",
+    "colors": ["Chrome", "Black"]
+  },
+  {
+    "name": "Floor Tom Drum",
+    "description": "Replacement floor tom drum designed for repairing, expanding, or customizing acoustic drum kits. Durable wooden construction suitable for practice and performance.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_tfc202.png",
+    "colors": ["Natural Wood"]
+  },
+  {
+    "name": "Drum Head",
+    "description": "Replacement drum head designed for acoustic drums, providing reliable durability, consistent tuning, and responsive performance for practice, recording, and live use.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_drum_head_series.png",
+    "colors": ["White", "Clear", "Black"]
+  },
+
+  {
+    "name": "Finger Cymbals",
+    "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
+    "category": "percussion",
+    "type": "finger-cymbals",
+    "image": "images/percussion/finger_cymbals/maxtone_fg16b.png",
+    "colors": ["Brass"]
+  },
+  {
+    "name": "Wood Conga Set",
+    "description": "Professional wooden conga set with adjustable stand, delivering rich tone and durable construction for stage performances, music schools, and percussion ensembles.",
+    "category": "percussion",
+    "type": "conga",
+    "image": "images/percussion/congas/maxtone_wdc33sb.png",
+    "colors": ["Vintage Sunburst"]
+  },
+  {
+    "name": "Wood Bongos",
+    "description": "Professional pair of wooden bongos featuring natural hide drum heads and durable hardware, delivering bright, authentic Latin percussion tones for performances, music education, and practice.",
+    "category": "percussion",
+    "type": "bongo",
+    "image": "images/percussion/bongos/maxtone_wbc46.png",
+    "colors": ["Natural Wood"]
+  },
+  {
+    "name": "Two-Tone Bongos",
+    "description": "Compact two-tone bongo set featuring basswood shells and genuine buffalo skin heads, delivering bright, authentic Latin percussion sound for beginners, students, and performers.",
+    "category": "percussion",
+    "type": "bongo",
+    "image": "images/percussion/bongos/maxtone_bc2r.png",
+    "colors": ["Natural Wood", "Red"]
+  },
+  {
+    "name": "Steel Tongue Drum",
+    "description": "Steel tongue drum with a rich, soothing tone, ideal for music education, meditation, relaxation, and percussion performances. Includes a pair of mallets and a padded carry bag.",
+    "category": "percussion",
+    "type": "steel-tongue-drum",
+    "image": "images/percussion/steel_tongue_drums/maxtone_hpc_series.png",
+    "colors": ["Silver", "Black", "Golden", "Antique Brass"]
   }
 ]
