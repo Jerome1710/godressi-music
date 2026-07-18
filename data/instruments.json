@@ -104,12 +104,13 @@
     "colors": ["Natural", "Gloss Black"]
   },
   {
-    "name": "Cordoba C5",
+    "name": "Paco Castillo 201",
     "category": "guitar",
     "type": "classical",
-    "description": "Nylon-string classical guitar with warm tone.",
-    "image": "images/guitars/classical/cordoba_c5.jpeg",
-    "colors": ["Natural"]
+    "description": "Handcrafted classical guitar featuring a solid Canadian red cedar top and sapele back and sides, delivering a warm, balanced tone with excellent projection.",
+    "image": "images/guitars/classical/paco_castillo_201.jpg",
+    "colors": ["Natural"],
+    "detailsImage": "images/guitars/classical/paco_castillo_201_details.png"
   },
   {
     "name": "Yamaha C40",
@@ -209,20 +210,28 @@
   },
 
   {
+    "name": "5-Piece Drum Set",
+    "description": "Complete acoustic drum set featuring durable poplar plywood shells, steel hardware, cymbals, drum throne, and drumsticks—ideal for beginners, schools, and practice.",
+    "category": "drums",
+    "type": "acoustic",
+    "image": "images/drums/classic/maxtone_5piece_drum_set.png",
+    "colors": ["Black"]
+  },
+  {
       "name": "XD-380 Drum Kit",
       "category": "drums",
-      "type": "acoustic",
+      "type": "electric",
       "description": "Complete acoustic drum kit designed for practice, recording, and live performances.",
-      "image": "images/drums/xd_380.png",
+      "image": "images/drums/electric/xd_380.png",
       "colors": ["Black"],
       "detailsImage": "images/drums/xd_380_details.png"
   },
   {
     "name": "XD-460",
     "category": "drums",
-    "type": "electronic",
+    "type": "electric",
     "description": "Electronic drum kit with responsive mesh pads, realistic sound, and versatile practice features.",
-    "image": "images/drums/xd_460.png",
+    "image": "images/drums/electric/xd_460.png",
     "colors": ["Black"],
     "detailsImage": "images/drums/xd_460_details.png"
   }
