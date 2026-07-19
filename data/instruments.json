@@ -1,107 +1,60 @@
 [
   {
-    "name": "Yamaha FG800",
+    "name": "Acoustic Guitar",
+    "description": "40-inch cutaway acoustic guitar with a spruce top and sapele back and sides, delivering a warm, balanced tone. Ideal for beginners, students, and everyday performance.",
     "category": "guitar",
     "type": "acoustic",
-    "description": "Warm acoustic tone, perfect for beginners.",
-    "image": "images/guitars/acoustic/yamaha_fg800.jpeg",
-    "colors": ["Natural", "Sunburst"]
-  },
-  {
-    "name": "Taylor 214ce",
-    "category": "guitar",
-    "type": "acoustic",
-    "description": "Premium acoustic guitar with rich projection and clarity.",
-    "image": "images/guitars/acoustic/taylor_214ce.jpeg",
+    "image": "images/guitars/acoustic/maxtone_wgc4005c.png",
     "colors": ["Natural"]
   },
   {
-    "name": "Martin D-28",
+    "name": "Acoustic Guitar",
+    "description": "40-inch cutaway acoustic guitar featuring a linden body with a matte finish for a warm, balanced tone. Ideal for beginners, students, and everyday practice.",
     "category": "guitar",
     "type": "acoustic",
-    "description": "Legendary dreadnought acoustic with deep bass response.",
-    "image": "images/guitars/acoustic/martin_d-28.jpeg",
+    "image": "images/guitars/acoustic/maxtone_wgc4006.png",
+    "colors": ["Matte Black", "Matte Sunburst", "Matte Natural"]
+  },
+  {
+    "name": "Acoustic Guitar",
+    "description": "40-inch cutaway acoustic guitar featuring a spruce top with sapele back and sides, delivering a warm, balanced tone. Suitable for beginners, students, and live performance.",
+    "category": "guitar",
+    "type": "acoustic",
+    "image": "images/guitars/acoustic/maxtone_wgc4008.png",
     "colors": ["Natural"]
   },
   {
-    "name": "Cedar Warm Acoustic",
-    "description": "Rich warm tone with deep bass response, ideal for fingerstyle and mellow playing.",
+    "name": "Acoustic Guitar",
+    "description": "40-inch cutaway acoustic guitar featuring a spruce top with sapele back and sides for a warm, balanced tone. Suitable for beginners, students, and everyday performance.",
     "category": "guitar",
     "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic1.jpg",
-    "colors": ["Natural", "Dark Brown", "Sunburst"]
+    "image": "images/guitars/acoustic/maxtone_wgc4007.png",
+    "colors": ["Natural"]
   },
   {
-    "name": "Spruce Classic Dreadnought",
-    "description": "Powerful projection and bright tone, perfect for strumming and live performance.",
+    "name": "Acoustic-Electric Guitar",
+    "description": "41-inch cutaway acoustic-electric guitar featuring a spruce top, mahogany back and sides, built-in piezo pickup, and active EQ. Ideal for beginners, students, and live performance.",
     "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic2.jpg",
-    "colors": ["Natural", "Black", "Sunburst"]
+    "type": "acoustic-electric",
+    "image": "images/guitars/acoustic-electric/maxtone_wgc1001.png",
+    "colors": ["Natural"]
   },
   {
-    "name": "Mahogany Folk Guitar",
-    "description": "Balanced tone with warm mids, great for songwriting and acoustic sessions.",
+    "name": "Acoustic-Electric Guitar",
+    "description": "41-inch cutaway acoustic-electric guitar featuring a spruce top, mahogany back and sides, and a built-in pickup with active EQ. Designed for students, performers, and live amplification.",
     "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic3.jpg",
-    "colors": ["Natural", "Walnut"]
+    "type": "acoustic-electric",
+    "image": "images/guitars/acoustic-electric/maxtone_wgc4116.png",
+    "colors": ["Natural"]
   },
+
   {
-    "name": "Grand Auditorium Acoustic",
-    "description": "Versatile body shape offering clarity and comfort for all playing styles.",
+    "name": "Classical Guitar",
+    "description": "Full-size 4/4 classical guitar featuring a spruce top with linden back and sides, delivering a warm, balanced nylon-string tone. Ideal for beginners, students, and music education.",
     "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic4.jpg",
-    "colors": ["Natural", "Cherry Sunburst"]
-  },
-  {
-    "name": "Parlor Vintage Acoustic",
-    "description": "Compact size with vintage tone, perfect for blues and travel musicians.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic5.jpg",
-    "colors": ["Natural", "Antique Burst"]
-  },
-  {
-    "name": "Rosewood Deep Tone Acoustic",
-    "description": "Strong low-end response with rich harmonic overtones.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic6.jpg",
-    "colors": ["Dark Brown", "Natural"]
-  },
-  {
-    "name": "Electro-Acoustic Stage Pro",
-    "description": "Built-in pickup system for live performances and studio recording.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic7.jpg",
-    "colors": ["Black", "Natural"]
-  },
-  {
-    "name": "Slim Neck Acoustic",
-    "description": "Designed for fast playing and comfort, ideal for beginners.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic8.jpg",
-    "colors": ["Natural", "Matte Black"]
-  },
-  {
-    "name": "12-Fret Vintage Acoustic",
-    "description": "Old-school design with warm, resonant vintage tone.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic9.jpg",
-    "colors": ["Sunburst", "Natural"]
-  },
-  {
-    "name": "Premium Studio Acoustic",
-    "description": "High-end acoustic guitar optimized for studio recording clarity.",
-    "category": "guitar",
-    "type": "acoustic",
-    "image": "images/guitars/acoustic/acoustic10.jpg",
-    "colors": ["Natural", "Gloss Black"]
+    "type": "classical",
+    "image": "images/guitars/classical/maxtone_cgc3918.png",
+    "colors": ["Natural"]
   },
   {
     "name": "Paco Castillo 201",
@@ -195,20 +148,20 @@
   },
 
   {
-    "name": "Fender Stratocaster",
+    "name": "Electric Guitar",
+    "description": "Solid-body electric guitar designed for beginners, students, and everyday performance. Features a lightweight body, bolt-on maple neck, and versatile single-coil pickup configuration.",
     "category": "guitar",
     "type": "electric",
-    "description": "Iconic electric guitar used in rock and blues.",
-    "image": "images/guitars/electric/electric1.jpg",
-    "colors": ["Black", "Sunburst", "White"]
+    "image": "images/guitars/electric/maxtone_2228vn.png",
+    "colors": ["Black","Blue","Red","Yellow","Sunburst Blue","Sunburst Red","Sunburst Yellow"]
   },
   {
-    "name": "Gibson Les Paul Standard",
+    "name": "Electric Guitar",
+    "description": "ST-style solid-body electric guitar designed for beginners, students, and everyday performance. Features three single-coil pickups, a bolt-on maple neck, and versatile controls for a wide range of tones.",
     "category": "guitar",
     "type": "electric",
-    "description": "Powerful electric guitar with warm sustain.",
-    "image": "images/guitars/electric/electric2.jpg",
-    "colors": ["Gold", "Cherry Sunburst"]
+    "image": "images/guitars/electric/maxtone_2225vn.png",
+    "colors": ["Black"]
   },
 
   {
@@ -348,6 +301,145 @@
     "image": "images/drums/toms/maxtone_lt156c.png",
     "colors": ["Black", "Red", "White"]
   },
+  
+  {
+    "name": "Finger Cymbals",
+    "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
+    "category": "percussion",
+    "type": "finger-cymbals",
+    "image": "images/percussion/finger_cymbals/maxtone_fg16b.png",
+    "colors": ["Brass"]
+  },
+  {
+    "name": "Wood Conga Set",
+    "description": "Professional wooden conga set with adjustable stand, delivering rich tone and durable construction for stage performances, music schools, and percussion ensembles.",
+    "category": "percussion",
+    "type": "conga",
+    "image": "images/percussion/congas/maxtone_wdc33sb.png",
+    "colors": ["Vintage Sunburst"]
+  },
+  {
+    "name": "Wood Cajon",
+    "description": "Wooden cajon featuring durable construction and a rich, resonant tone, ideal for acoustic performances, music education, and percussion practice.",
+    "category": "percussion",
+    "type": "cajon",
+    "image": "images/percussion/cajons/maxtone_wbc46.png",
+    "colors": ["Natural Wood"]
+  },
+  {
+    "name": "Two-Tone Bongos",
+    "description": "Compact two-tone bongo set featuring basswood shells and genuine buffalo skin heads, delivering bright, authentic Latin percussion sound for beginners, students, and performers.",
+    "category": "percussion",
+    "type": "bongo",
+    "image": "images/percussion/bongos/maxtone_bc2r.png",
+    "colors": ["Natural Wood", "Red"]
+  },
+  {
+    "name": "Steel Tongue Drum",
+    "description": "Steel tongue drum with a rich, soothing tone, ideal for music education, meditation, relaxation, and percussion performances. Includes a pair of mallets and a padded carry bag.",
+    "category": "percussion",
+    "type": "steel-tongue-drum",
+    "image": "images/percussion/steel_tongue_drums/maxtone_hpc_series.png",
+    "colors": ["Silver", "Black", "Golden", "Antique Brass"]
+  },
+  {
+    "name": "Percussion Bell Set",
+    "description": "Complete percussion bell set designed for music education, classroom activities, and orchestral training. Includes a full range of chromatic bells with a durable carrying case for easy transport and storage.",
+    "category": "percussion",
+    "type": "bell-set",
+    "image": "images/percussion/bell_sets/maxtone_pbs531set.png",
+    "colors": ["Silver", "Black"]
+  },
+
+  {
+    "name": "Fiberglass Sousaphone",
+    "description": "Professional Bb fiberglass sousaphone designed for marching bands, parades, and outdoor performances. Features a lightweight fiberglass body with durable brass and cupronickel components for excellent projection and comfort.",
+    "category": "wind",
+    "type": "sousaphone",
+    "image": "images/wind/sousaphones/maxtone_tspc30fg.png",
+    "colors": ["White", "Gold"]
+  },
+  {
+    "name": "Marching Euphonium",
+    "description": "Professional Bb marching euphonium designed for marching bands, school ensembles, and outdoor performances. Features a nickel silver tuning pipe and stainless steel pistons for smooth, reliable performance.",
+    "category": "wind",
+    "type": "euphonium",
+    "image": "images/wind/euphoniums/maxtone_tmec53_nsl.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone designed for students, music schools, and performers. Features durable construction, smooth key action, and a rich, balanced tone suitable for practice and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc21abl.png",
+    "colors": ["Antique Brass Lacquer"]
+  },
+  {
+    "name": "Tenor Saxophone",
+    "description": "Professional Bb tenor saxophone designed for students, music schools, and performers. Features an unlacquered finish, detachable bell, black pearl key touches, and a rich, resonant tone.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx58t21.png",
+    "colors": ["Unlacquered Brass"]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved bell, detachable bell, and black pearl key touches. Ideal for students, schools, and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx68a_l2.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring an antique brass finish, hand-engraved bell, detachable bell, and black pearl key touches. Designed for students, music schools, and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx68abs.png",
+    "colors": ["Antique Brass"]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved detachable bell, and white pearl key touches. Ideal for students, music schools, and live performances.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc51al.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Eb alto saxophone with a clear lacquer finish, hand-engraved bell, and warm, balanced tone. An excellent choice for beginners, students, and school bands.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc29al.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "Tenor Saxophone",
+    "description": "Bb tenor saxophone with a clear lacquer finish, designed for students, school bands, and developing musicians. Features a detachable bell and a warm, balanced tone.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_tsc22l.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "BBb Tuba",
+    "description": "Professional BBb tuba featuring a clear lacquer finish, stainless steel pistons, and a full, resonant tone. Designed for concert bands, orchestras, and music education.",
+    "category": "wind",
+    "type": "tuba",
+    "image": "images/wind/tubas/maxtone_ttc53l4.png",
+    "colors": ["Clear Lacquer"]
+  },
+  {
+    "name": "Trumpet",
+    "description": "Bb trumpet with a clear lacquer finish, designed for students, school bands, and developing musicians. Produces a bright, balanced tone with reliable intonation.",
+    "category": "wind",
+    "type": "trumpet",
+    "image": "images/wind/trumpets/maxtone_ttc21l.png",
+    "colors": ["Clear Lacquer"]
+  },
+
   {
     "name": "Educational Rhythm Band Set",
     "description": "Complete classroom rhythm instrument set designed for music education, group activities, and early percussion training.",
@@ -403,46 +495,5 @@
     "type": "drums",
     "image": "images/accessories/drums/maxtone_drum_head_series.png",
     "colors": ["White", "Clear", "Black"]
-  },
-
-  {
-    "name": "Finger Cymbals",
-    "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
-    "category": "percussion",
-    "type": "finger-cymbals",
-    "image": "images/percussion/finger_cymbals/maxtone_fg16b.png",
-    "colors": ["Brass"]
-  },
-  {
-    "name": "Wood Conga Set",
-    "description": "Professional wooden conga set with adjustable stand, delivering rich tone and durable construction for stage performances, music schools, and percussion ensembles.",
-    "category": "percussion",
-    "type": "conga",
-    "image": "images/percussion/congas/maxtone_wdc33sb.png",
-    "colors": ["Vintage Sunburst"]
-  },
-  {
-    "name": "Wood Bongos",
-    "description": "Professional pair of wooden bongos featuring natural hide drum heads and durable hardware, delivering bright, authentic Latin percussion tones for performances, music education, and practice.",
-    "category": "percussion",
-    "type": "bongo",
-    "image": "images/percussion/bongos/maxtone_wbc46.png",
-    "colors": ["Natural Wood"]
-  },
-  {
-    "name": "Two-Tone Bongos",
-    "description": "Compact two-tone bongo set featuring basswood shells and genuine buffalo skin heads, delivering bright, authentic Latin percussion sound for beginners, students, and performers.",
-    "category": "percussion",
-    "type": "bongo",
-    "image": "images/percussion/bongos/maxtone_bc2r.png",
-    "colors": ["Natural Wood", "Red"]
-  },
-  {
-    "name": "Steel Tongue Drum",
-    "description": "Steel tongue drum with a rich, soothing tone, ideal for music education, meditation, relaxation, and percussion performances. Includes a pair of mallets and a padded carry bag.",
-    "category": "percussion",
-    "type": "steel-tongue-drum",
-    "image": "images/percussion/steel_tongue_drums/maxtone_hpc_series.png",
-    "colors": ["Silver", "Black", "Golden", "Antique Brass"]
   }
 ]
