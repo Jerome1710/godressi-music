@@ -439,6 +439,14 @@
     "image": "images/wind/trumpets/maxtone_ttc21l.png",
     "colors": ["Clear Lacquer"]
   },
+  {
+    "name": "Soprano Recorder",
+    "description": "Soprano recorder made from durable ABS resin, designed for music education, classroom use, and beginner players. Produces a clear, balanced tone and is easy to maintain.",
+    "category": "wind",
+    "type": "recorder",
+    "image": "images/wind/recorders/maxtone_tr59.png",
+    "colors": ["Ivory"]
+  },
 
   {
     "name": "Educational Rhythm Band Set",
