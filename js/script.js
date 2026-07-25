@@ -56,6 +56,7 @@ function applyFilters() {
         const name = (item.name || "").toLowerCase();
         const category = (item.category || "").toLowerCase();
         const type = (item.type || "").toLowerCase();
+        const subtype = (item.subtype || "").toLowerCase();
 
         const nameMatch = name
             .split(" ")
@@ -64,7 +65,8 @@ function applyFilters() {
         return (
             nameMatch ||
             category.startsWith(q) ||
-            type.startsWith(q)
+            type.startsWith(q) ||
+            subtype.startsWith(q)
         );
     });
 }
@@ -91,6 +93,16 @@ function displayInstruments(instruments) {
         return;
     }
 
+    /*
+        Structure:
+
+        grouped
+          └── category
+                └── type
+                      └── subtype
+                            └── products
+    */
+
     const grouped = {};
 
     instruments.forEach(item => {
@@ -98,10 +110,26 @@ function displayInstruments(instruments) {
         const category = item.category || "other";
         const type = item.type || "general";
 
-        if (!grouped[category]) grouped[category] = {};
-        if (!grouped[category][type]) grouped[category][type] = [];
+        /*
+            Products without a subtype are placed in a special
+            internal group. This means your existing products
+            will continue to work.
+        */
+        const subtype = item.subtype || "__no_subtype__";
 
-        grouped[category][type].push(item);
+        if (!grouped[category]) {
+            grouped[category] = {};
+        }
+
+        if (!grouped[category][type]) {
+            grouped[category][type] = {};
+        }
+
+        if (!grouped[category][type][subtype]) {
+            grouped[category][type][subtype] = [];
+        }
+
+        grouped[category][type][subtype].push(item);
     });
 
 
@@ -109,10 +137,10 @@ function displayInstruments(instruments) {
 
         const categorySection = document.createElement("section");
         categorySection.className = "category-section";
-
         categorySection.id = `category-${category}`;
 
 
+        // MAIN CATEGORY: PIANO, GUITAR, DRUMS...
         const categoryTitle = document.createElement("h2");
         categoryTitle.className = "main-category-title";
         categoryTitle.innerText = category.toUpperCase();
@@ -122,144 +150,170 @@ function displayInstruments(instruments) {
 
         Object.keys(grouped[category]).forEach(type => {
 
-            const subTitle = document.createElement("h3");
-            subTitle.className = "subcategory-title";
-
-            subTitle.innerText =
+            // TYPE: ACOUSTIC, DIGITAL...
+            const typeTitle = document.createElement("h3");
+            typeTitle.className = "subcategory-title";
+            typeTitle.innerText =
                 type.charAt(0).toUpperCase() + type.slice(1);
 
-            categorySection.appendChild(subTitle);
+            categorySection.appendChild(typeTitle);
 
 
-            const rowWrapper = document.createElement("div");
-            rowWrapper.className = "row-wrapper";
+            Object.keys(grouped[category][type]).forEach(subtype => {
 
+                /*
+                    Only show a subtype title when the product
+                    actually has a subtype.
+                */
+                if (subtype !== "__no_subtype__") {
 
-            const leftBtn = document.createElement("button");
-            leftBtn.className = "row-arrow left";
-            leftBtn.innerHTML = "‹";
+                    const subtypeTitle = document.createElement("h4");
+                    subtypeTitle.className = "subsubcategory-title";
 
+                    subtypeTitle.innerText =
+                        subtype.charAt(0).toUpperCase() +
+                        subtype.slice(1);
 
-            const rightBtn = document.createElement("button");
-            rightBtn.className = "row-arrow right";
-            rightBtn.innerHTML = "›";
-
-
-            const row = document.createElement("div");
-            row.className = "row-cards";
-
-
-            leftBtn.onclick = () => scrollRow(row, -1);
-            rightBtn.onclick = () => scrollRow(row, 1);
-
-
-
-            grouped[category][type].forEach(item => {
-
-
-                const card = document.createElement("div");
-
-                card.className = "card";
-
-                card.setAttribute(
-                    "data-category",
-                    item.category
-                );
-
-
-                card.onclick = () => openModal(item);
-
-
-
-                card.innerHTML = `
-
-                    <img src="${item.image}" alt="${item.name}">
-
-                    <h3>${item.name}</h3>
-
-                    <p>${item.description}</p>
-
-
-                    <div class="colors">
-
-                        <span class="colors-label">
-                            Colors:
-                        </span>
-
-
-                        ${
-                            item.colors && item.colors.length > 0
-                            ?
-                            item.colors
-                                .map(color =>
-                                    `<span class="color-pill">${color}</span>`
-                                )
-                                .join("")
-                            :
-                            `<span class="color-pill">N/A</span>`
-                        }
-
-                    </div>
-
-
-
-                    ${
-                        (item.category === "piano" || item.category === "drums" || item.category === "guitar") && item.detailsImage
-                        ?
-                        `
-                        <button class="details-btn">
-                            View Details
-                        </button>
-                        `
-                        :
-                        ""
-                    }
-
-                `;
-
-
-
-                // PIANO - GUITAR - DRUMS DETAILS BUTTON ONLY
-                if ((item.category === "piano" || item.category === "drums" || item.category === "guitar") && item.detailsImage) {
-
-                    const btn =
-                        card.querySelector(".details-btn");
-
-
-                    btn.onclick = (e) => {
-
-                        e.stopPropagation();
-
-                        openDetailsModal(item);
-
-                    };
-
+                    categorySection.appendChild(subtypeTitle);
                 }
 
 
+                const rowWrapper = document.createElement("div");
+                rowWrapper.className = "row-wrapper";
 
-                row.appendChild(card);
 
+                const leftBtn = document.createElement("button");
+                leftBtn.className = "row-arrow left";
+                leftBtn.innerHTML = "‹";
+
+
+                const rightBtn = document.createElement("button");
+                rightBtn.className = "row-arrow right";
+                rightBtn.innerHTML = "›";
+
+
+                const row = document.createElement("div");
+                row.className = "row-cards";
+
+
+                leftBtn.onclick = () => scrollRow(row, -1);
+                rightBtn.onclick = () => scrollRow(row, 1);
+
+
+                grouped[category][type][subtype].forEach(item => {
+
+                    const card = document.createElement("div");
+
+                    card.className = "card";
+
+                    card.setAttribute(
+                        "data-category",
+                        item.category || ""
+                    );
+
+                    card.setAttribute(
+                        "data-type",
+                        item.type || ""
+                    );
+
+                    card.setAttribute(
+                        "data-subtype",
+                        item.subtype || ""
+                    );
+
+
+                    card.onclick = () => openModal(item);
+
+
+                    card.innerHTML = `
+
+                        <img
+                            src="${item.image || ""}"
+                            alt="${item.name || "Instrument"}"
+                        >
+
+                        <h3>${item.name || ""}</h3>
+
+                        <p>${item.description || ""}</p>
+
+
+                        <div class="colors">
+
+                            <span class="colors-label">
+                                Colors:
+                            </span>
+
+                            ${
+                                item.colors && item.colors.length > 0
+                                ?
+                                item.colors
+                                    .map(color =>
+                                        `<span class="color-pill">${color}</span>`
+                                    )
+                                    .join("")
+                                :
+                                `<span class="color-pill">N/A</span>`
+                            }
+
+                        </div>
+
+
+                        ${
+                            (
+                                item.category === "piano" ||
+                                item.category === "drums" ||
+                                item.category === "guitar"
+                            ) &&
+                            item.detailsImage
+                            ?
+                            `
+                            <button class="details-btn">
+                                View Details
+                            </button>
+                            `
+                            :
+                            ""
+                        }
+
+                    `;
+
+
+                    // DETAILS BUTTON
+                    if (
+                        (
+                            item.category === "piano" ||
+                            item.category === "drums" ||
+                            item.category === "guitar"
+                        ) &&
+                        item.detailsImage
+                    ) {
+
+                        const btn = card.querySelector(".details-btn");
+
+                        btn.onclick = event => {
+
+                            event.stopPropagation();
+
+                            openDetailsModal(item);
+                        };
+                    }
+
+
+                    row.appendChild(card);
+                });
+
+
+                rowWrapper.appendChild(leftBtn);
+                rowWrapper.appendChild(row);
+                rowWrapper.appendChild(rightBtn);
+
+                categorySection.appendChild(rowWrapper);
             });
-
-
-
-            rowWrapper.appendChild(leftBtn);
-
-            rowWrapper.appendChild(row);
-
-            rowWrapper.appendChild(rightBtn);
-
-
-            categorySection.appendChild(rowWrapper);
-
         });
 
 
         container.appendChild(categorySection);
-
     });
-
 }
 
 
@@ -273,21 +327,22 @@ function openDetailsModal(item) {
     document.getElementById("modalImage").src =
         item.detailsImage;
 
-
     document.getElementById("modalTitle").innerText =
         item.name;
-
 
     document.getElementById("modalDescription").innerText =
         "";
 
+    // Clear colors from the previously opened product
+    const colorsContainer = document.getElementById("modalColors");
+    if (colorsContainer) {
+        colorsContainer.innerHTML = "";
+    }
 
     document.getElementById("productModal")
         .classList.add("active");
 
-
     document.body.classList.add("modal-open");
-
 }
 
 
@@ -422,14 +477,6 @@ window.onclick = function(event) {
         closeModal();
     }
 };
-
-// =========================================================
-// MOBILE MENU
-// =========================================================
-
-function toggleMenu() {
-    document.getElementById("navLinks").classList.toggle("active");
-}
 
 // =========================================================
 // ESC KEY

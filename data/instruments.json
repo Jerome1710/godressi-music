@@ -182,49 +182,218 @@
   },
 
   {
+    "name": "Used Yamaha G1",
+    "description": "Pre-owned Yamaha G1 baby grand piano offering a warm, balanced tone and responsive touch. Ideal for homes, music schools, studios, and beginner to intermediate pianists seeking Yamaha grand piano quality.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g1.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha G2",
+    "description": "Pre-owned Yamaha G2 grand piano with a rich, expressive sound and reliable Yamaha action. Suitable for private practice, music education, and small performance spaces.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g2.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha G3",
+    "description": "Pre-owned Yamaha G3 professional grand piano featuring greater projection and tonal depth. Well suited for advanced students, teachers, recording studios, and recital venues.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g3.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha G5",
+    "description": "Pre-owned Yamaha G5 grand piano delivering powerful projection, excellent dynamic range, and refined touch. Ideal for conservatories, performance spaces, and serious pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g5.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha C1",
+    "description": "Pre-owned Yamaha C1 grand piano from the renowned C Series, offering clear tone, precise action, and excellent musical expression. Perfect for homes, studios, and music schools.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_c1.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha C3",
+    "description": "Pre-owned Yamaha C3 professional grand piano with exceptional tonal richness, responsive touch, and outstanding versatility. Suitable for advanced performers, recording studios, and recital halls.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_c3.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Used Yamaha C7",
+    "description": "Pre-owned Yamaha C7 concert grand piano delivering outstanding power, clarity, and dynamic range. Designed for concert venues, conservatories, recording studios, and professional performance.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_c7.png",
+    "colors": ["Black"]
+  },
+
+  {
     "name": "Galileo H7",
     "category": "piano",
     "type": "digital",
+    "subtype": "console",
     "description": "Digital piano with realistic touch and high-quality sound.",
-    "image": "images/pianos/galileo_h7.png",
+    "image": "images/pianos/digital/console/galileo_h7.png",
     "colors": ["Black"],
-    "detailsImage": "images/pianos/galileo_h7_details.png"
+    "detailsImage": "images/pianos/digital/console/galileo_h7_details.png"
   },
   {
     "name": "Galileo M8",
     "category": "piano",
     "type": "digital",
+    "subtype": "console",
     "description": "Digital piano with realistic touch, rich sound, and modern features.",
-    "image": "images/pianos/galileo_m8.png",
+    "image": "images/pianos/digital/console/galileo_m8.png",
     "colors": ["Black", "White"],
-    "detailsImage": "images/pianos/galileo_m8_details.png"
+    "detailsImage": "images/pianos/digital/console/galileo_m8_details.png"
   },
   {
     "name": "Galileo MG310 Grand Piano",
     "category": "piano",
     "type": "digital",
+    "subtype": "grand",
     "description": "Elegant digital grand piano offering an authentic playing experience with rich, expressive sound.",
-    "image": "images/pianos/galileo_mg310.png",
+    "image": "images/pianos/digital/grand/galileo_mg310.png",
     "colors": ["Polished Black"],
-    "detailsImage": "images/pianos/galileo_mg310_details.png"
+    "detailsImage": "images/pianos/digital/grand/galileo_mg310_details.png"
   },
   {
     "name": "Galileo S8 Stage Piano",
     "category": "piano",
     "type": "digital",
+    "subtype": "stage",
     "description": "Professional stage piano designed for live performance with responsive keys and premium piano tones.",
-    "image": "images/pianos/galileo_s8.png",
+    "image": "images/pianos/digital/stage/galileo_s8.png",
     "colors": ["Black"],
-    "detailsImage": "images/pianos/galileo_s8_details.png"
+    "detailsImage": "images/pianos/digital/stage/galileo_s8_details.png"
   },
   {
     "name": "Galileo V30 Digital Piano",
     "category": "piano",
     "type": "digital",
+    "subtype": "console",
     "description": "Modern home digital piano combining realistic touch, expressive sound, and a sleek contemporary design.",
-    "image": "images/pianos/galileo_v30.png",
+    "image": "images/pianos/digital/console/galileo_v30.png",
     "colors": ["Black"],
-    "detailsImage": "images/pianos/galileo_v30_details.png"
+    "detailsImage": "images/pianos/digital/console/galileo_v30_details.png"
+  },
+
+  {
+    "name": "Used Yamaha U1",
+    "description": "Pre-owned Yamaha U1 upright piano renowned for its balanced tone, responsive touch, and long-lasting reliability. Ideal for homes, music schools, studios, and everyday practice.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u1.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha U2",
+    "description": "Pre-owned Yamaha U2 upright piano offering a fuller sound and greater projection than smaller upright models. Suitable for homes, teaching studios, and advancing pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u2.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha U3",
+    "description": "Pre-owned Yamaha U3 professional upright piano featuring rich tone, excellent touch, and powerful projection. A popular choice for conservatories, studios, and serious musicians.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u3.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha U5",
+    "description": "Pre-owned Yamaha U5 premium upright piano delivering refined tonal quality, responsive action, and exceptional musical expression. Designed for advanced players and professional environments.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u5.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha U7",
+    "description": "Pre-owned Yamaha U7 upright piano offering rich resonance, responsive touch, and dependable Yamaha craftsmanship. Suitable for music schools, studios, and experienced pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u7.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha W103",
+    "description": "Pre-owned Yamaha W103 upright piano featuring an elegant wood cabinet, warm tonal character, and responsive keyboard action. Ideal for homes and music education.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w103.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha W104",
+    "description": "Pre-owned Yamaha W104 upright piano combining attractive cabinetry with a balanced tone and smooth action. Well suited for home practice and teaching studios.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w104.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha W105",
+    "description": "Pre-owned Yamaha W105 upright piano offering warm sound, reliable performance, and a refined wooden cabinet design. Perfect for homes, studios, and music schools.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w105.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha W110",
+    "description": "Pre-owned Yamaha W110 upright piano featuring expressive tone, dependable action, and elegant craftsmanship. Suitable for musicians seeking both performance and style.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w110.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha YUS",
+    "description": "Pre-owned Yamaha YUS upright piano from Yamaha's premium upright series, offering exceptional tonal depth, precision, and expressive control for advanced pianists and professionals.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_yus.png",
+    "colors": ["Black", "Brown", "White"]
+  },
+  {
+    "name": "Used Yamaha UX",
+    "description": "Pre-owned Yamaha UX upright piano featuring the distinctive X-back frame design for enhanced stability, projection, and tonal richness. Ideal for demanding musicians, studios, and music schools.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_ux.png",
+    "colors": ["Black", "Brown", "White"]
   },
 
   {
@@ -261,6 +430,23 @@
     "colors": ["Black"],
     "detailsImage": "images/drums/electric/xd_460_details.png"
   },
+  {
+    "name": "Electric Guitar Pack",
+    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2225VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
+    "category": "guitar",
+    "type": "electric",
+    "image": "images/guitars/electric/maxtone_2225pack.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Electric Guitar Pack",
+    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2227VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
+    "category": "guitar",
+    "type": "electric",
+    "image": "images/guitars/electric/maxtone_2227pack.png",
+    "colors": ["White"]
+  },
+
   {
     "name": "Marching Drum",
     "description": "Professional marching drum series designed for school bands, parades, and marching ensembles. Available in bass, tenor, and snare configurations with multiple sizes for every performance need.",
@@ -503,5 +689,77 @@
     "type": "drums",
     "image": "images/accessories/drums/maxtone_drum_head_series.png",
     "colors": ["White", "Clear", "Black"]
+  },
+  {
+    "name": "Adjustable Piano Bench",
+    "description": "Height-adjustable piano bench with a padded seat, designed for pianists, keyboard players, music classrooms, studios, and home practice. Provides comfortable seating and stable support during performances and lessons.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_pbc40.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "X-Style Keyboard Stand",
+    "description": "Adjustable X-style keyboard stand designed to provide stable support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick height changes, making it suitable for classrooms, studios, rehearsals, performances, and home use.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_akbc75.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "XX-Style Keyboard Stand",
+    "description": "Heavy-duty XX-style keyboard stand designed to provide enhanced stability and support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick and secure height adjustments, making it ideal for classrooms, studios, rehearsals, performances, and home use.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_akbc76d.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Steel Guitar Stand",
+    "description": "Foldable steel guitar stand designed to securely hold acoustic, electric, and bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
+    "category": "accessories",
+    "type": "guitar",
+    "image": "images/accessories/guitar/maxtone_gsc101b.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Double Guitar Stand",
+    "description": "Foldable double guitar stand designed to securely hold two acoustic, electric, or bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
+    "category": "accessories",
+    "type": "guitar",
+    "image": "images/accessories/guitar/maxtone_gs1040.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Microphone Stand",
+    "description": "Adjustable microphone stand designed to provide stable support for wired and wireless microphones during live performances, rehearsals, studio recording, presentations, classrooms, and home use. Durable steel construction with adjustable height for versatile positioning.",
+    "category": "accessories",
+    "type": "stands",
+    "image": "images/accessories/stands/maxtone_tmsc127.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Music Stand",
+    "description": "Adjustable music stand designed to securely hold sheet music, books, and scores during practice, rehearsals, performances, classrooms, and home use. Lightweight and portable design with adjustable height for comfortable viewing.",
+    "category": "accessories",
+    "type": "stands",
+    "image": "images/accessories/stands/maxtone_tmsc59.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Melodion 32 Keys",
+    "description": "32-key melodion designed for music education, classroom activities, and beginner to intermediate performances. Produces a clear, expressive sound and includes a protective carrying case, making it ideal for schools, rehearsals, and home practice.",
+    "category": "wind",
+    "type": "melodions",
+    "image": "images/wind/melodions/maxtone_mc32.png",
+    "colors": ["Blue"]
+  },
+  {
+    "name": "Melodion 37 Keys",
+    "description": "37-key melodion designed for music education, classroom activities, and beginner to intermediate performances. Produces a rich, expressive sound and includes a black soft case for convenient transport and protection, making it ideal for schools, rehearsals, and home practice.",
+    "category": "wind",
+    "type": "melodions",
+    "image": "images/wind/melodions/maxtone_mn37d.png",
+    "colors": ["Black", "Blue", "Red"]
   }
 ]
