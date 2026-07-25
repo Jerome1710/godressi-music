@@ -250,7 +250,7 @@
       "description": "Complete acoustic drum kit designed for practice, recording, and live performances.",
       "image": "images/drums/electric/xd_380.png",
       "colors": ["Black"],
-      "detailsImage": "images/drums/xd_380_details.png"
+      "detailsImage": "images/drums/electric/xd_380_details.png"
   },
   {
     "name": "XD-460",
@@ -259,55 +259,55 @@
     "description": "Electronic drum kit with responsive mesh pads, realistic sound, and versatile practice features.",
     "image": "images/drums/electric/xd_460.png",
     "colors": ["Black"],
-    "detailsImage": "images/drums/xd_460_details.png"
+    "detailsImage": "images/drums/electric/xd_460_details.png"
   },
   {
     "name": "Marching Drum",
     "description": "Professional marching drum series designed for school bands, parades, and marching ensembles. Available in bass, tenor, and snare configurations with multiple sizes for every performance need.",
-    "category": "drums",
+    "category": "percussion",
     "type": "marching",
-    "image": "images/drums/marching/maxtone_marching_drum.png",
+    "image": "images/percussion/marching/maxtone_marching_drum.png",
     "colors": ["White", "Black", "Red"]
   },
   {
     "name": "3-Piece Marching Drum Set",
     "description": "Compact 3-piece marching drum set with carrier, designed for school bands, marching ensembles, and parade performances. Lightweight construction with durable hardware for reliable outdoor use.",
-    "category": "drums",
+    "category": "percussion",
     "type": "marching",
-    "image": "images/drums/marching/maxtone_src816.png",
+    "image": "images/percussion/marching/maxtone_src816.png",
     "colors": ["White"]
   },
   {
-    "name": "Quint Marching Drum Set",
-    "description": "Professional five-drum marching set designed for marching bands, drum corps, and school ensembles. Features lightweight construction with an ergonomic carrier for comfort during performances.",
-    "category": "drums",
+    "name": "Quatrio Marching Drum Set",
+    "description": "Professional four-drum marching set designed for marching bands, drum corps, and school ensembles. Features lightweight construction with an ergonomic carrier for comfort during performances.",
+    "category": "percussion",
     "type": "marching",
-    "image": "images/drums/marching/maxtone_src817.png",
+    "image": "images/percussion/marching/maxtone_src817.png",
     "colors": ["White"]
   },
   {
-    "name": "Rototom Set",
-    "description": "Professional rototom drum set with chrome-plated hardware and adjustable tuning system, ideal for orchestral percussion, concert bands, marching ensembles, and live performances.",
-    "category": "drums",
-    "type": "rototom",
-    "image": "images/drums/rototom/maxtone_rt68b.png",
+    "name": "Space Tom Set",
+    "description": "Professional space tom drum set with chrome-plated hardware and adjustable tuning system, ideal for orchestral percussion, concert bands, marching ensembles, and live performances.",
+    "category": "percussion",
+    "type": "space tom",
+    "image": "images/percussion/space_tom/maxtone_rt68b.png",
     "colors": ["Chrome"]
   },
   {
-    "name": "Single Tom Drum",
-    "description": "Professional single tom drum designed for drum set expansion or replacement, featuring durable construction and a bright, balanced tone suitable for practice and live performance.",
-    "category": "drums",
+    "name": "Latin Drum",
+    "description": "Professional single tom drum designed for drum set expansion or replacement, featuring durable construction and a bright, balanced tone suitable for practice and live performance. Available :13’’-14’’ or 14’’ 15’’",
+    "category": "percussion",
     "type": "tom",
-    "image": "images/drums/toms/maxtone_lt156c.png",
+    "image": "images/percussion/toms/maxtone_lt156c.png",
     "colors": ["Black", "Red", "White"]
   },
   
   {
-    "name": "Finger Cymbals",
+    "name": "Orchestra Xylophone",
     "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
     "category": "percussion",
-    "type": "finger-cymbals",
-    "image": "images/percussion/finger_cymbals/maxtone_fg16b.png",
+    "type": "xylophones",
+    "image": "images/percussion/xylophones/maxtone_fg16b.png",
     "colors": ["Brass"]
   },
   {
@@ -416,8 +416,8 @@
     "colors": ["Clear Lacquer"]
   },
   {
-    "name": "Tenor Saxophone",
-    "description": "Bb tenor saxophone with a clear lacquer finish, designed for students, school bands, and developing musicians. Features a detachable bell and a warm, balanced tone.",
+    "name": "Soprano Saxophone",
+    "description": "Bb soprano saxophone with a clear lacquer finish, designed for students, school bands, and developing musicians. Features a detachable bell and a warm, balanced tone.",
     "category": "wind",
     "type": "saxophone",
     "image": "images/wind/saxophones/maxtone_tsc22l.png",
@@ -449,24 +449,24 @@
   },
 
   {
-    "name": "Educational Rhythm Band Set",
-    "description": "Complete classroom rhythm instrument set designed for music education, group activities, and early percussion training.",
+    "name": "Drum Hardware",
+    "description": "Professional drum hardware including stands, pedals, and mounting accessories designed to provide stability, durability, and reliable performance for drum kits.",
     "category": "accessories",
     "type": "drums",
     "image": "images/accessories/drums/maxtone_208_series.png",
     "colors": ["Natural Wood", "Red","Yellow", "Blue", "Green", "Black","White"]
   },
   {
-    "name": "Practice Drum Pad",
-    "description": "Portable practice drum pad designed for developing stick control, timing, and technique. Features a realistic playing surface and compact design for quiet practice at home, school, or on the go.",
+    "name": "Drum Pedal",
+    "description": "Durable drum pedal designed to deliver smooth, responsive action and reliable performance for drummers of all skill levels.",
     "category": "accessories",
     "type": "drums",
     "image": "images/accessories/drums/maxtone_dp2020.png",
     "colors": ["Gray", "Black"]
   },
   {
-    "name": "Educational Practice Pad",
-    "description": "Educational practice pad designed for developing rhythm, stick control, and drumming fundamentals in classrooms, music schools, and individual practice.",
+    "name": "Drum Double Pedal",
+    "description": "Professional double bass drum pedal designed for fast, smooth, and precise performance, offering excellent control, stability, and durability for advanced drumming techniques.",
     "category": "accessories",
     "type": "drums",
     "image": "images/accessories/drums/maxtone_dp2020tw.png",
@@ -489,8 +489,8 @@
     "colors": ["Chrome", "Black"]
   },
   {
-    "name": "Floor Tom Drum",
-    "description": "Replacement floor tom drum designed for repairing, expanding, or customizing acoustic drum kits. Durable wooden construction suitable for practice and performance.",
+    "name": "Drum Throne",
+    "description": "Replacement drum throne designed for repairing, expanding, or customizing acoustic drum kits. Durable wooden construction suitable for practice and performance.",
     "category": "accessories",
     "type": "drums",
     "image": "images/accessories/drums/maxtone_tfc202.png",
