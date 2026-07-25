@@ -214,14 +214,6 @@
     "colors": ["Natural"]
   },
   {
-    "name": "Solid Maple Viola",
-    "description": "Acoustic viola featuring a solid spruce top, solid maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Suitable for students and ensemble performance.",
-    "category": "viola",
-    "type": "acoustic",
-    "image": "images/violas/acoustic/solid_maple_viola.png",
-    "colors": ["Natural"]
-  },
-  {
     "name": "Clear Spruce Violin",
     "description": "Acoustic violin with a solid spruce top, maple back and sides, ebony fittings, inlaid purfling, and an ebony frog bow. Designed for reliable tone and comfortable playability.",
     "category": "violin",
@@ -252,6 +244,32 @@
     "type": "electric",
     "image": "images/violins/electric/electric_violin.png",
     "colors": ["Black", "White"]
+  },
+
+  {
+    "name": "Solid Maple Viola",
+    "description": "Acoustic viola featuring a solid spruce top, solid maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Suitable for students and ensemble performance.",
+    "category": "viola",
+    "type": "acoustic",
+    "image": "images/violas/acoustic/solid_maple_viola.png",
+    "colors": ["Natural"]
+  },
+
+  {
+    "name": "Violin Case",
+    "description": "Protective violin case designed for safe storage and transportation. Features a durable exterior, padded interior, and accessory compartment, making it ideal for students, teachers, and professional musicians.",
+    "category": "accessories",
+    "type": "violin",
+    "image": "images/accessories/violin/violin_case.png",
+    "colors": ["Black"]
+  },
+  {
+    "name": "Adjustable Shoulder Rest",
+    "description": "Adjustable shoulder rest designed to provide comfort, stability, and proper playing posture for violinists. Suitable for students, music schools, rehearsals, and professional performances.",
+    "category": "accessories",
+    "type": "violin",
+    "image": "images/accessories/violin/adjustable_shoulder_rest.png",
+    "colors": ["Black"]
   },
 
   {
