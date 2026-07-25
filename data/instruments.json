@@ -5,7 +5,9 @@
     "category": "guitar",
     "type": "acoustic",
     "image": "images/guitars/acoustic/maxtone_wgc4005c.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
   {
     "name": "Acoustic Guitar",
@@ -13,7 +15,11 @@
     "category": "guitar",
     "type": "acoustic",
     "image": "images/guitars/acoustic/maxtone_wgc4006.png",
-    "colors": ["Matte Black", "Matte Sunburst", "Matte Natural"]
+    "colors": [
+      "Matte Black",
+      "Matte Sunburst",
+      "Matte Natural"
+    ]
   },
   {
     "name": "Acoustic Guitar",
@@ -21,7 +27,9 @@
     "category": "guitar",
     "type": "acoustic",
     "image": "images/guitars/acoustic/maxtone_wgc4008.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
   {
     "name": "Acoustic Guitar",
@@ -29,7 +37,9 @@
     "category": "guitar",
     "type": "acoustic",
     "image": "images/guitars/acoustic/maxtone_wgc4007.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
   {
     "name": "Acoustic-Electric Guitar",
@@ -37,7 +47,9 @@
     "category": "guitar",
     "type": "acoustic-electric",
     "image": "images/guitars/acoustic-electric/maxtone_wgc1001.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
   {
     "name": "Acoustic-Electric Guitar",
@@ -45,16 +57,19 @@
     "category": "guitar",
     "type": "acoustic-electric",
     "image": "images/guitars/acoustic-electric/maxtone_wgc4116.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
-
   {
     "name": "Classical Guitar",
     "description": "Full-size 4/4 classical guitar featuring a spruce top with linden back and sides, delivering a warm, balanced nylon-string tone. Ideal for beginners, students, and music education.",
     "category": "guitar",
     "type": "classical",
     "image": "images/guitars/classical/maxtone_cgc3918.png",
-    "colors": ["Natural"]
+    "colors": [
+      "Natural"
+    ]
   },
   {
     "name": "Paco Castillo 201",
@@ -62,7 +77,9 @@
     "type": "classical",
     "description": "Handcrafted classical guitar featuring a solid Canadian red cedar top and sapele back and sides, delivering a warm, balanced tone with excellent projection.",
     "image": "images/guitars/classical/paco_castillo_201.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_201_details.png"
   },
   {
@@ -71,7 +88,9 @@
     "type": "classical",
     "description": "Premium handcrafted classical guitar with a solid Canadian red cedar top, sapele back and sides, and an Indian rosewood fingerboard for a warm, expressive tone and excellent playability.",
     "image": "images/guitars/classical/paco_castillo_202.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_202_details.png"
   },
   {
@@ -80,7 +99,9 @@
     "type": "classical",
     "description": "Premium handcrafted classical guitar featuring a solid Canadian red cedar top, Indian rosewood back and sides, and gold-plated tuners for a rich, warm tone with exceptional projection and sustain.",
     "image": "images/guitars/classical/paco_castillo_203.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_203_details.png"
   },
   {
@@ -89,7 +110,9 @@
     "type": "classical",
     "description": "Professional handcrafted classical guitar with a solid Canadian red cedar top, Indian rosewood back and sides, ebony fingerboard, and gold-plated tuners for exceptional warmth, clarity, and projection.",
     "image": "images/guitars/classical/paco_castillo_204.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_204_details.png"
   },
   {
@@ -98,17 +121,10 @@
     "type": "classical",
     "description": "Professional classical guitar featuring a solid Canadian red cedar top, solid Indian rosewood back and sides, ebony fingerboard, and premium hardware for outstanding tone and responsiveness.",
     "image": "images/guitars/classical/paco_castillo_205.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_205_details.png"
-  },
-  {
-    "name": "Paco Castillo 240",
-    "category": "guitar",
-    "type": "classical",
-    "description": "Professional handcrafted classical guitar with a solid Canadian red cedar top, solid Indian rosewood body, ebony fingerboard, and luxury tuners, offering rich resonance and superior craftsmanship.",
-    "image": "images/guitars/classical/paco_castillo_240.jpg",
-    "colors": ["Natural"],
-    "detailsImage": "images/guitars/classical/paco_castillo_240_details.png"
   },
   {
     "name": "Paco Castillo 211F",
@@ -116,7 +132,9 @@
     "type": "classical",
     "description": "Advanced flamenco classical guitar with a solid spruce top, sycamore back and sides, and a fast-playing neck for bright, percussive response.",
     "image": "images/guitars/classical/paco_castillo_211f.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_211f_details.png"
   },
   {
@@ -125,8 +143,21 @@
     "type": "classical",
     "description": "Professional flamenco guitar featuring a solid spruce top, maple back and sides, and gold-plated tuners, delivering crisp attack and traditional flamenco character.",
     "image": "images/guitars/classical/paco_castillo_213f.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical/paco_castillo_213f_details.png"
+  },
+  {
+    "name": "Paco Castillo 240",
+    "category": "guitar",
+    "type": "classical",
+    "description": "Professional handcrafted classical guitar with a solid Canadian red cedar top, solid Indian rosewood body, ebony fingerboard, and luxury tuners, offering rich resonance and superior craftsmanship.",
+    "image": "images/guitars/classical/paco_castillo_240.jpg",
+    "colors": [
+      "Natural"
+    ],
+    "detailsImage": "images/guitars/classical/paco_castillo_240_details.png"
   },
   {
     "name": "Paco Castillo 222CE",
@@ -134,7 +165,9 @@
     "type": "classical-electric",
     "description": "Advanced cutaway classical-electric guitar with a solid Canadian red cedar top, Fishman Clásica III electronics, and excellent amplified performance.",
     "image": "images/guitars/classical-electric/paco_castillo_222ce.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical-electric/paco_castillo_222ce_details.png"
   },
   {
@@ -143,17 +176,26 @@
     "type": "classical-electric",
     "description": "Professional cutaway classical-electric guitar featuring a solid Canadian red cedar top, Fishman Clásica III electronics, and warm acoustic tone with reliable stage performance.",
     "image": "images/guitars/classical-electric/paco_castillo_232te.jpg",
-    "colors": ["Natural"],
+    "colors": [
+      "Natural"
+    ],
     "detailsImage": "images/guitars/classical-electric/paco_castillo_232te_details.png"
   },
-
   {
     "name": "Electric Guitar",
     "description": "Solid-body electric guitar designed for beginners, students, and everyday performance. Features a lightweight body, bolt-on maple neck, and versatile single-coil pickup configuration.",
     "category": "guitar",
     "type": "electric",
     "image": "images/guitars/electric/maxtone_2228vn.png",
-    "colors": ["Black","Blue","Red","Yellow","Sunburst Blue","Sunburst Red","Sunburst Yellow"]
+    "colors": [
+      "Black",
+      "Blue",
+      "Red",
+      "Yellow",
+      "Sunburst Blue",
+      "Sunburst Red",
+      "Sunburst Yellow"
+    ]
   },
   {
     "name": "Electric Guitar",
@@ -161,152 +203,29 @@
     "category": "guitar",
     "type": "electric",
     "image": "images/guitars/electric/maxtone_2225vn.png",
-    "colors": ["Black"]
-  },
-
-  {
-    "name": "Student Cello",
-    "description": "Acoustic cello with a laminated spruce top and laminated maple back and sides. Finished in black matte and fitted with rosewood parts, making it suitable for beginners, music schools, and orchestras.",
-    "category": "cello",
-    "type": "acoustic",
-    "image": "images/cellos/acoustic/student_cello_black.png",
-    "colors": ["Black"]
+    "colors": [
+      "Black"
+    ]
   },
   {
-    "name": "Antique Cello",
-    "description": "Acoustic cello featuring a solid spruce top, maple back and sides, ebony fingerboard, and boxwood fittings with decorative pins. Finished in a natural antique satin for a warm traditional appearance.",
-    "category": "cello",
-    "type": "acoustic",
-    "image": "images/cellos/acoustic/antique_cello.png",
-    "colors": ["Natural"]
-  },
-
-  {
-    "name": "Hand Varnished Violin",
-    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, hand-applied varnish, ebony fittings with pins, and a Pernambuco bow with an ebony frog. Designed for intermediate and advanced players.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/hand_varnished_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Alcohol Varnish Violin",
-    "description": "Acoustic violin featuring a solid spruce top, flamed maple back and sides, alcohol varnish finish, ebony fittings with pins, and a Pernambuco bow with an ebony frog.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/alcohol_varnish_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Flamed Maple Violin",
-    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, ebony fittings, and an ebony frog bow. Offers a balanced tone suitable for music education and performance.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/flamed_maple_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Solid Maple Violin",
-    "description": "Acoustic violin with a solid spruce top, solid maple back and sides, boxwood fittings, inlaid purfling, and a rosewood frog bow. Features a lightly flamed maple finish.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/solid_maple_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Clear Spruce Violin",
-    "description": "Acoustic violin with a solid spruce top, maple back and sides, ebony fittings, inlaid purfling, and an ebony frog bow. Designed for reliable tone and comfortable playability.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/clear_spruce_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Coffee Matte Violin",
-    "description": "Acoustic violin featuring a solid spruce top, maple back and sides, old rosewood fittings, inlaid purfling, and a rosewood frog bow. Finished in a light coffee matte color.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/coffee_matte_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Student Violin",
-    "description": "Acoustic violin with a solid spruce top, maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Ideal for beginners, schools, and music academies.",
-    "category": "violin",
-    "type": "acoustic",
-    "image": "images/violins/acoustic/student_violin.png",
-    "colors": ["Natural"]
-  },
-  {
-    "name": "Electric Violin",
-    "description": "Electric violin featuring a maple head, maple and composite body, and ebony accessories. Designed for silent practice, live performance, and amplified playing.",
-    "category": "violin",
+    "name": "Electric Guitar Pack",
+    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2225VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
+    "category": "guitar",
     "type": "electric",
-    "image": "images/violins/electric/electric_violin.png",
-    "colors": ["Black", "White"]
-  },
-
-  {
-    "name": "Solid Maple Viola",
-    "description": "Acoustic viola featuring a solid spruce top, solid maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Suitable for students and ensemble performance.",
-    "category": "viola",
-    "type": "acoustic",
-    "image": "images/violas/acoustic/solid_maple_viola.png",
-    "colors": ["Natural"]
-  },
-
-  {
-    "name": "Violin Case",
-    "description": "Protective violin case designed for safe storage and transportation. Features a durable exterior, padded interior, and accessory compartment, making it ideal for students, teachers, and professional musicians.",
-    "category": "accessories",
-    "type": "violin",
-    "image": "images/accessories/violin/violin_case.png",
-    "colors": ["Black"]
+    "image": "images/guitars/electric/maxtone_2225pack.png",
+    "colors": [
+      "Black"
+    ]
   },
   {
-    "name": "Adjustable Shoulder Rest",
-    "description": "Adjustable shoulder rest designed to provide comfort, stability, and proper playing posture for violinists. Suitable for students, music schools, rehearsals, and professional performances.",
-    "category": "accessories",
-    "type": "violin",
-    "image": "images/accessories/violin/adjustable_shoulder_rest.png",
-    "colors": ["Black"]
-  },
-
-  {
-    "name": "Used Yamaha G1",
-    "description": "Pre-owned Yamaha G1 baby grand piano offering a warm, balanced tone and responsive touch. Ideal for homes, music schools, studios, and beginner to intermediate pianists seeking Yamaha grand piano quality.",
-    "category": "piano",
-    "type": "acoustic",
-    "subtype": "grand",
-    "image": "images/pianos/acoustic/grand/used_yamaha_g1.png",
-    "colors": ["Black", "Brown", "White"]
-  },
-  {
-    "name": "Used Yamaha G2",
-    "description": "Pre-owned Yamaha G2 grand piano with a rich, expressive sound and reliable Yamaha action. Suitable for private practice, music education, and small performance spaces.",
-    "category": "piano",
-    "type": "acoustic",
-    "subtype": "grand",
-    "image": "images/pianos/acoustic/grand/used_yamaha_g2.png",
-    "colors": ["Black", "Brown", "White"]
-  },
-  {
-    "name": "Used Yamaha G3",
-    "description": "Pre-owned Yamaha G3 professional grand piano featuring greater projection and tonal depth. Well suited for advanced students, teachers, recording studios, and recital venues.",
-    "category": "piano",
-    "type": "acoustic",
-    "subtype": "grand",
-    "image": "images/pianos/acoustic/grand/used_yamaha_g3.png",
-    "colors": ["Black", "Brown", "White"]
-  },
-  {
-    "name": "Used Yamaha G5",
-    "description": "Pre-owned Yamaha G5 grand piano delivering powerful projection, excellent dynamic range, and refined touch. Ideal for conservatories, performance spaces, and serious pianists.",
-    "category": "piano",
-    "type": "acoustic",
-    "subtype": "grand",
-    "image": "images/pianos/acoustic/grand/used_yamaha_g5.png",
-    "colors": ["Black", "Brown", "White"]
+    "name": "Electric Guitar Pack",
+    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2227VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
+    "category": "guitar",
+    "type": "electric",
+    "image": "images/guitars/electric/maxtone_2227pack.png",
+    "colors": [
+      "White"
+    ]
   },
   {
     "name": "Used Yamaha C1",
@@ -315,7 +234,11 @@
     "type": "acoustic",
     "subtype": "grand",
     "image": "images/pianos/acoustic/grand/used_yamaha_c1.png",
-    "colors": ["Black", "Brown", "White"]
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
   },
   {
     "name": "Used Yamaha C3",
@@ -324,7 +247,11 @@
     "type": "acoustic",
     "subtype": "grand",
     "image": "images/pianos/acoustic/grand/used_yamaha_c3.png",
-    "colors": ["Black", "Brown", "White"]
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
   },
   {
     "name": "Used Yamaha C7",
@@ -333,9 +260,207 @@
     "type": "acoustic",
     "subtype": "grand",
     "image": "images/pianos/acoustic/grand/used_yamaha_c7.png",
-    "colors": ["Black", "Brown", "White"]
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
   },
-
+  {
+    "name": "Used Yamaha G1",
+    "description": "Pre-owned Yamaha G1 baby grand piano offering a warm, balanced tone and responsive touch. Ideal for homes, music schools, studios, and beginner to intermediate pianists seeking Yamaha grand piano quality.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g1.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha G2",
+    "description": "Pre-owned Yamaha G2 grand piano with a rich, expressive sound and reliable Yamaha action. Suitable for private practice, music education, and small performance spaces.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g2.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha G3",
+    "description": "Pre-owned Yamaha G3 professional grand piano featuring greater projection and tonal depth. Well suited for advanced students, teachers, recording studios, and recital venues.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g3.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha G5",
+    "description": "Pre-owned Yamaha G5 grand piano delivering powerful projection, excellent dynamic range, and refined touch. Ideal for conservatories, performance spaces, and serious pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "grand",
+    "image": "images/pianos/acoustic/grand/used_yamaha_g5.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha U1",
+    "description": "Pre-owned Yamaha U1 upright piano renowned for its balanced tone, responsive touch, and long-lasting reliability. Ideal for homes, music schools, studios, and everyday practice.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u1.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha U2",
+    "description": "Pre-owned Yamaha U2 upright piano offering a fuller sound and greater projection than smaller upright models. Suitable for homes, teaching studios, and advancing pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u2.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha U3",
+    "description": "Pre-owned Yamaha U3 professional upright piano featuring rich tone, excellent touch, and powerful projection. A popular choice for conservatories, studios, and serious musicians.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u3.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha U5",
+    "description": "Pre-owned Yamaha U5 premium upright piano delivering refined tonal quality, responsive action, and exceptional musical expression. Designed for advanced players and professional environments.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u5.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha U7",
+    "description": "Pre-owned Yamaha U7 upright piano offering rich resonance, responsive touch, and dependable Yamaha craftsmanship. Suitable for music schools, studios, and experienced pianists.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_u7.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha UX",
+    "description": "Pre-owned Yamaha UX upright piano featuring the distinctive X-back frame design for enhanced stability, projection, and tonal richness. Ideal for demanding musicians, studios, and music schools.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_ux.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha W103",
+    "description": "Pre-owned Yamaha W103 upright piano featuring an elegant wood cabinet, warm tonal character, and responsive keyboard action. Ideal for homes and music education.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w103.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha W104",
+    "description": "Pre-owned Yamaha W104 upright piano combining attractive cabinetry with a balanced tone and smooth action. Well suited for home practice and teaching studios.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w104.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha W105",
+    "description": "Pre-owned Yamaha W105 upright piano offering warm sound, reliable performance, and a refined wooden cabinet design. Perfect for homes, studios, and music schools.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w105.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha W110",
+    "description": "Pre-owned Yamaha W110 upright piano featuring expressive tone, dependable action, and elegant craftsmanship. Suitable for musicians seeking both performance and style.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_w110.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
+  {
+    "name": "Used Yamaha YUS",
+    "description": "Pre-owned Yamaha YUS upright piano from Yamaha's premium upright series, offering exceptional tonal depth, precision, and expressive control for advanced pianists and professionals.",
+    "category": "piano",
+    "type": "acoustic",
+    "subtype": "upright",
+    "image": "images/pianos/acoustic/upright/used_yamaha_yus.png",
+    "colors": [
+      "Black",
+      "Brown",
+      "White"
+    ]
+  },
   {
     "name": "Galileo H7",
     "category": "piano",
@@ -343,7 +468,9 @@
     "subtype": "console",
     "description": "Digital piano with realistic touch and high-quality sound.",
     "image": "images/pianos/digital/console/galileo_h7.png",
-    "colors": ["Black"],
+    "colors": [
+      "Black"
+    ],
     "detailsImage": "images/pianos/digital/console/galileo_h7_details.png"
   },
   {
@@ -353,8 +480,23 @@
     "subtype": "console",
     "description": "Digital piano with realistic touch, rich sound, and modern features.",
     "image": "images/pianos/digital/console/galileo_m8.png",
-    "colors": ["Black", "White"],
+    "colors": [
+      "Black",
+      "White"
+    ],
     "detailsImage": "images/pianos/digital/console/galileo_m8_details.png"
+  },
+  {
+    "name": "Galileo V30 Digital Piano",
+    "category": "piano",
+    "type": "digital",
+    "subtype": "console",
+    "description": "Modern home digital piano combining realistic touch, expressive sound, and a sleek contemporary design.",
+    "image": "images/pianos/digital/console/galileo_v30.png",
+    "colors": [
+      "Black"
+    ],
+    "detailsImage": "images/pianos/digital/console/galileo_v30_details.png"
   },
   {
     "name": "Galileo MG310 Grand Piano",
@@ -363,7 +505,9 @@
     "subtype": "grand",
     "description": "Elegant digital grand piano offering an authentic playing experience with rich, expressive sound.",
     "image": "images/pianos/digital/grand/galileo_mg310.png",
-    "colors": ["Polished Black"],
+    "colors": [
+      "Polished Black"
+    ],
     "detailsImage": "images/pianos/digital/grand/galileo_mg310_details.png"
   },
   {
@@ -373,127 +517,131 @@
     "subtype": "stage",
     "description": "Professional stage piano designed for live performance with responsive keys and premium piano tones.",
     "image": "images/pianos/digital/stage/galileo_s8.png",
-    "colors": ["Black"],
+    "colors": [
+      "Black"
+    ],
     "detailsImage": "images/pianos/digital/stage/galileo_s8_details.png"
   },
   {
-    "name": "Galileo V30 Digital Piano",
-    "category": "piano",
-    "type": "digital",
-    "subtype": "console",
-    "description": "Modern home digital piano combining realistic touch, expressive sound, and a sleek contemporary design.",
-    "image": "images/pianos/digital/console/galileo_v30.png",
-    "colors": ["Black"],
-    "detailsImage": "images/pianos/digital/console/galileo_v30_details.png"
-  },
-
-  {
-    "name": "Used Yamaha U1",
-    "description": "Pre-owned Yamaha U1 upright piano renowned for its balanced tone, responsive touch, and long-lasting reliability. Ideal for homes, music schools, studios, and everyday practice.",
-    "category": "piano",
+    "name": "Alcohol Varnish Violin",
+    "description": "Acoustic violin featuring a solid spruce top, flamed maple back and sides, alcohol varnish finish, ebony fittings with pins, and a Pernambuco bow with an ebony frog.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_u1.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/alcohol_varnish_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha U2",
-    "description": "Pre-owned Yamaha U2 upright piano offering a fuller sound and greater projection than smaller upright models. Suitable for homes, teaching studios, and advancing pianists.",
-    "category": "piano",
+    "name": "Clear Spruce Violin",
+    "description": "Acoustic violin with a solid spruce top, maple back and sides, ebony fittings, inlaid purfling, and an ebony frog bow. Designed for reliable tone and comfortable playability.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_u2.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/clear_spruce_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha U3",
-    "description": "Pre-owned Yamaha U3 professional upright piano featuring rich tone, excellent touch, and powerful projection. A popular choice for conservatories, studios, and serious musicians.",
-    "category": "piano",
+    "name": "Coffee Matte Violin",
+    "description": "Acoustic violin featuring a solid spruce top, maple back and sides, old rosewood fittings, inlaid purfling, and a rosewood frog bow. Finished in a light coffee matte color.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_u3.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/coffee_matte_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha U5",
-    "description": "Pre-owned Yamaha U5 premium upright piano delivering refined tonal quality, responsive action, and exceptional musical expression. Designed for advanced players and professional environments.",
-    "category": "piano",
+    "name": "Flamed Maple Violin",
+    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, ebony fittings, and an ebony frog bow. Offers a balanced tone suitable for music education and performance.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_u5.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/flamed_maple_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha U7",
-    "description": "Pre-owned Yamaha U7 upright piano offering rich resonance, responsive touch, and dependable Yamaha craftsmanship. Suitable for music schools, studios, and experienced pianists.",
-    "category": "piano",
+    "name": "Hand Varnished Violin",
+    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, hand-applied varnish, ebony fittings with pins, and a Pernambuco bow with an ebony frog. Designed for intermediate and advanced players.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_u7.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/hand_varnished_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha W103",
-    "description": "Pre-owned Yamaha W103 upright piano featuring an elegant wood cabinet, warm tonal character, and responsive keyboard action. Ideal for homes and music education.",
-    "category": "piano",
+    "name": "Solid Maple Violin",
+    "description": "Acoustic violin with a solid spruce top, solid maple back and sides, boxwood fittings, inlaid purfling, and a rosewood frog bow. Features a lightly flamed maple finish.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_w103.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/solid_maple_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha W104",
-    "description": "Pre-owned Yamaha W104 upright piano combining attractive cabinetry with a balanced tone and smooth action. Well suited for home practice and teaching studios.",
-    "category": "piano",
+    "name": "Student Violin",
+    "description": "Acoustic violin with a solid spruce top, maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Ideal for beginners, schools, and music academies.",
+    "category": "violin",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_w104.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violins/acoustic/student_violin.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha W105",
-    "description": "Pre-owned Yamaha W105 upright piano offering warm sound, reliable performance, and a refined wooden cabinet design. Perfect for homes, studios, and music schools.",
-    "category": "piano",
-    "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_w105.png",
-    "colors": ["Black", "Brown", "White"]
+    "name": "Electric Violin",
+    "description": "Electric violin featuring a maple head, maple and composite body, and ebony accessories. Designed for silent practice, live performance, and amplified playing.",
+    "category": "violin",
+    "type": "electric",
+    "image": "images/violins/electric/electric_violin.png",
+    "colors": [
+      "Black",
+      "White"
+    ]
   },
   {
-    "name": "Used Yamaha W110",
-    "description": "Pre-owned Yamaha W110 upright piano featuring expressive tone, dependable action, and elegant craftsmanship. Suitable for musicians seeking both performance and style.",
-    "category": "piano",
+    "name": "Solid Maple Viola",
+    "description": "Acoustic viola featuring a solid spruce top, solid maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Suitable for students and ensemble performance.",
+    "category": "viola",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_w110.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/violas/acoustic/solid_maple_viola.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha YUS",
-    "description": "Pre-owned Yamaha YUS upright piano from Yamaha's premium upright series, offering exceptional tonal depth, precision, and expressive control for advanced pianists and professionals.",
-    "category": "piano",
+    "name": "Antique Cello",
+    "description": "Acoustic cello featuring a solid spruce top, maple back and sides, ebony fingerboard, and boxwood fittings with decorative pins. Finished in a natural antique satin for a warm traditional appearance.",
+    "category": "cello",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_yus.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/cellos/acoustic/antique_cello.png",
+    "colors": [
+      "Natural"
+    ]
   },
   {
-    "name": "Used Yamaha UX",
-    "description": "Pre-owned Yamaha UX upright piano featuring the distinctive X-back frame design for enhanced stability, projection, and tonal richness. Ideal for demanding musicians, studios, and music schools.",
-    "category": "piano",
+    "name": "Student Cello",
+    "description": "Acoustic cello with a laminated spruce top and laminated maple back and sides. Finished in black matte and fitted with rosewood parts, making it suitable for beginners, music schools, and orchestras.",
+    "category": "cello",
     "type": "acoustic",
-    "subtype": "upright",
-    "image": "images/pianos/acoustic/upright/used_yamaha_ux.png",
-    "colors": ["Black", "Brown", "White"]
+    "image": "images/cellos/acoustic/student_cello_black.png",
+    "colors": [
+      "Black"
+    ]
   },
-
   {
     "name": "5-Piece Drum Set",
     "description": "Complete acoustic drum set featuring durable poplar plywood shells, steel hardware, cymbals, drum throne, and drumsticks—ideal for beginners, intermediate, schools, and practice.",
     "category": "drums",
     "type": "acoustic",
     "image": "images/drums/acoustic/maxtone_5piece_drum_set.png",
-    "colors": ["Black"]
+    "colors": [
+      "Black"
+    ]
   },
   {
     "name": "Junior Drum Set",
@@ -501,16 +649,20 @@
     "category": "drums",
     "type": "acoustic",
     "image": "images/drums/acoustic/maxtone_junior_drum_set.png",
-    "colors": ["Black"]
+    "colors": [
+      "Black"
+    ]
   },
   {
-      "name": "XD-380 Drum Kit",
-      "category": "drums",
-      "type": "electric",
-      "description": "Complete acoustic drum kit designed for practice, recording, and live performances.",
-      "image": "images/drums/electric/xd_380.png",
-      "colors": ["Black"],
-      "detailsImage": "images/drums/electric/xd_380_details.png"
+    "name": "XD-380 Drum Kit",
+    "category": "drums",
+    "type": "electric",
+    "description": "Complete acoustic drum kit designed for practice, recording, and live performances.",
+    "image": "images/drums/electric/xd_380.png",
+    "colors": [
+      "Black"
+    ],
+    "detailsImage": "images/drums/electric/xd_380_details.png"
   },
   {
     "name": "XD-460",
@@ -518,123 +670,10 @@
     "type": "electric",
     "description": "Electronic drum kit with responsive mesh pads, realistic sound, and versatile practice features.",
     "image": "images/drums/electric/xd_460.png",
-    "colors": ["Black"],
+    "colors": [
+      "Black"
+    ],
     "detailsImage": "images/drums/electric/xd_460_details.png"
-  },
-  {
-    "name": "Electric Guitar Pack",
-    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2225VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
-    "category": "guitar",
-    "type": "electric",
-    "image": "images/guitars/electric/maxtone_2225pack.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "Electric Guitar Pack",
-    "description": "Complete electric guitar starter package for beginners, students, and music education. Includes a 2227VN electric guitar, 15W amplifier, electronic tuner, padded gig bag, replacement strings, and six guitar picks.",
-    "category": "guitar",
-    "type": "electric",
-    "image": "images/guitars/electric/maxtone_2227pack.png",
-    "colors": ["White"]
-  },
-
-  {
-    "name": "Marching Drum",
-    "description": "Professional marching drum series designed for school bands, parades, and marching ensembles. Available in bass, tenor, and snare configurations with multiple sizes for every performance need.",
-    "category": "percussion",
-    "type": "marching",
-    "image": "images/percussion/marching/maxtone_marching_drum.png",
-    "colors": ["White", "Black", "Red"]
-  },
-  {
-    "name": "3-Piece Marching Drum Set",
-    "description": "Compact 3-piece marching drum set with carrier, designed for school bands, marching ensembles, and parade performances. Lightweight construction with durable hardware for reliable outdoor use.",
-    "category": "percussion",
-    "type": "marching",
-    "image": "images/percussion/marching/maxtone_src816.png",
-    "colors": ["White"]
-  },
-  {
-    "name": "Quatrio Marching Drum Set",
-    "description": "Professional four-drum marching set designed for marching bands, drum corps, and school ensembles. Features lightweight construction with an ergonomic carrier for comfort during performances.",
-    "category": "percussion",
-    "type": "marching",
-    "image": "images/percussion/marching/maxtone_src817.png",
-    "colors": ["White"]
-  },
-  {
-    "name": "Space Tom Set",
-    "description": "Professional space tom drum set with chrome-plated hardware and adjustable tuning system, ideal for orchestral percussion, concert bands, marching ensembles, and live performances.",
-    "category": "percussion",
-    "type": "space tom",
-    "image": "images/percussion/space_tom/maxtone_rt68b.png",
-    "colors": ["Chrome"]
-  },
-  {
-    "name": "Latin Drum",
-    "description": "Professional single tom drum designed for drum set expansion or replacement, featuring durable construction and a bright, balanced tone suitable for practice and live performance. Available :13’’-14’’ or 14’’ 15’’",
-    "category": "percussion",
-    "type": "tom",
-    "image": "images/percussion/toms/maxtone_lt156c.png",
-    "colors": ["Black", "Red", "White"]
-  },
-  
-  {
-    "name": "Orchestra Xylophone",
-    "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
-    "category": "percussion",
-    "type": "xylophones",
-    "image": "images/percussion/xylophones/maxtone_fg16b.png",
-    "colors": ["Brass"]
-  },
-  {
-    "name": "Wood Conga Set",
-    "description": "Professional wooden conga set with adjustable stand, delivering rich tone and durable construction for stage performances, music schools, and percussion ensembles.",
-    "category": "percussion",
-    "type": "conga",
-    "image": "images/percussion/congas/maxtone_wdc33sb.png",
-    "colors": ["Vintage Sunburst"]
-  },
-  {
-    "name": "Wood Cajon",
-    "description": "Wooden cajon featuring durable construction and a rich, resonant tone, ideal for acoustic performances, music education, and percussion practice.",
-    "category": "percussion",
-    "type": "cajon",
-    "image": "images/percussion/cajons/maxtone_wbc46.png",
-    "colors": ["Natural Wood"]
-  },
-  {
-    "name": "Two-Tone Bongos",
-    "description": "Compact two-tone bongo set featuring basswood shells and genuine buffalo skin heads, delivering bright, authentic Latin percussion sound for beginners, students, and performers.",
-    "category": "percussion",
-    "type": "bongo",
-    "image": "images/percussion/bongos/maxtone_bc2r.png",
-    "colors": ["Natural Wood", "Red"]
-  },
-  {
-    "name": "Steel Tongue Drum",
-    "description": "Steel tongue drum with a rich, soothing tone, ideal for music education, meditation, relaxation, and percussion performances. Includes a pair of mallets and a padded carry bag.",
-    "category": "percussion",
-    "type": "steel-tongue-drum",
-    "image": "images/percussion/steel_tongue_drums/maxtone_hpc_series.png",
-    "colors": ["Silver", "Black", "Golden", "Antique Brass"]
-  },
-  {
-    "name": "Percussion Bell Set",
-    "description": "Complete percussion bell set designed for music education, classroom activities, and orchestral training. Includes a full range of chromatic bells with a durable carrying case for easy transport and storage.",
-    "category": "percussion",
-    "type": "bell-set",
-    "image": "images/percussion/bell_sets/maxtone_pbs531set.png",
-    "colors": ["Silver", "Black"]
-  },
-
-  {
-    "name": "Fiberglass Sousaphone",
-    "description": "Professional Bb fiberglass sousaphone designed for marching bands, parades, and outdoor performances. Features a lightweight fiberglass body with durable brass and cupronickel components for excellent projection and comfort.",
-    "category": "wind",
-    "type": "sousaphone",
-    "image": "images/wind/sousaphones/maxtone_tspc30fg.png",
-    "colors": ["White", "Gold"]
   },
   {
     "name": "Marching Euphonium",
@@ -642,200 +681,9 @@
     "category": "wind",
     "type": "euphonium",
     "image": "images/wind/euphoniums/maxtone_tmec53_nsl.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Alto Saxophone",
-    "description": "Professional Eb alto saxophone designed for students, music schools, and performers. Features durable construction, smooth key action, and a rich, balanced tone suitable for practice and live performance.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sxc21abl.png",
-    "colors": ["Antique Brass Lacquer"]
-  },
-  {
-    "name": "Tenor Saxophone",
-    "description": "Professional Bb tenor saxophone designed for students, music schools, and performers. Features an unlacquered finish, detachable bell, black pearl key touches, and a rich, resonant tone.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sx58t21.png",
-    "colors": ["Unlacquered Brass"]
-  },
-  {
-    "name": "Alto Saxophone",
-    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved bell, detachable bell, and black pearl key touches. Ideal for students, schools, and live performance.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sx68a_l2.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Alto Saxophone",
-    "description": "Professional Eb alto saxophone featuring an antique brass finish, hand-engraved bell, detachable bell, and black pearl key touches. Designed for students, music schools, and live performance.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sx68abs.png",
-    "colors": ["Antique Brass"]
-  },
-  {
-    "name": "Alto Saxophone",
-    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved detachable bell, and white pearl key touches. Ideal for students, music schools, and live performances.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sxc51al.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Alto Saxophone",
-    "description": "Eb alto saxophone with a clear lacquer finish, hand-engraved bell, and warm, balanced tone. An excellent choice for beginners, students, and school bands.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_sxc29al.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Soprano Saxophone",
-    "description": "Bb soprano saxophone with a clear lacquer finish, designed for students, school bands, and developing musicians. Features a detachable bell and a warm, balanced tone.",
-    "category": "wind",
-    "type": "saxophone",
-    "image": "images/wind/saxophones/maxtone_tsc22l.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "BBb Tuba",
-    "description": "Professional BBb tuba featuring a clear lacquer finish, stainless steel pistons, and a full, resonant tone. Designed for concert bands, orchestras, and music education.",
-    "category": "wind",
-    "type": "tuba",
-    "image": "images/wind/tubas/maxtone_ttc53l4.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Trumpet",
-    "description": "Bb trumpet with a clear lacquer finish, designed for students, school bands, and developing musicians. Produces a bright, balanced tone with reliable intonation.",
-    "category": "wind",
-    "type": "trumpet",
-    "image": "images/wind/trumpets/maxtone_ttc21l.png",
-    "colors": ["Clear Lacquer"]
-  },
-  {
-    "name": "Soprano Recorder",
-    "description": "Soprano recorder made from durable ABS resin, designed for music education, classroom use, and beginner players. Produces a clear, balanced tone and is easy to maintain.",
-    "category": "wind",
-    "type": "recorder",
-    "image": "images/wind/recorders/maxtone_tr59.png",
-    "colors": ["Ivory"]
-  },
-
-  {
-    "name": "Drum Hardware",
-    "description": "Professional drum hardware including stands, pedals, and mounting accessories designed to provide stability, durability, and reliable performance for drum kits.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_208_series.png",
-    "colors": ["Natural Wood", "Red","Yellow", "Blue", "Green", "Black","White"]
-  },
-  {
-    "name": "Drum Pedal",
-    "description": "Durable drum pedal designed to deliver smooth, responsive action and reliable performance for drummers of all skill levels.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_dp2020.png",
-    "colors": ["Gray", "Black"]
-  },
-  {
-    "name": "Drum Double Pedal",
-    "description": "Professional double bass drum pedal designed for fast, smooth, and precise performance, offering excellent control, stability, and durability for advanced drumming techniques.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_dp2020tw.png",
-    "colors": ["Gray", "Black"]
-  },
-  {
-    "name": "Drum Parts Series",
-    "description": "Replacement drum parts designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for schools, music stores, and professional drummers.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_c_series.png",
-    "colors": ["Chrome", "Black"]
-  },
-  {
-    "name": "Drum Parts Series",
-    "description": "Collection of replacement drum components designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for music schools, workshops, and professional drummers.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_cd_series.png",
-    "colors": ["Chrome", "Black"]
-  },
-  {
-    "name": "Drum Throne",
-    "description": "Replacement drum throne designed for repairing, expanding, or customizing acoustic drum kits. Durable wooden construction suitable for practice and performance.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_tfc202.png",
-    "colors": ["Natural Wood"]
-  },
-  {
-    "name": "Drum Head",
-    "description": "Replacement drum head designed for acoustic drums, providing reliable durability, consistent tuning, and responsive performance for practice, recording, and live use.",
-    "category": "accessories",
-    "type": "drums",
-    "image": "images/accessories/drums/maxtone_drum_head_series.png",
-    "colors": ["White", "Clear", "Black"]
-  },
-  {
-    "name": "Adjustable Piano Bench",
-    "description": "Height-adjustable piano bench with a padded seat, designed for pianists, keyboard players, music classrooms, studios, and home practice. Provides comfortable seating and stable support during performances and lessons.",
-    "category": "accessories",
-    "type": "piano",
-    "image": "images/accessories/piano/maxtone_pbc40.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "X-Style Keyboard Stand",
-    "description": "Adjustable X-style keyboard stand designed to provide stable support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick height changes, making it suitable for classrooms, studios, rehearsals, performances, and home use.",
-    "category": "accessories",
-    "type": "piano",
-    "image": "images/accessories/piano/maxtone_akbc75.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "XX-Style Keyboard Stand",
-    "description": "Heavy-duty XX-style keyboard stand designed to provide enhanced stability and support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick and secure height adjustments, making it ideal for classrooms, studios, rehearsals, performances, and home use.",
-    "category": "accessories",
-    "type": "piano",
-    "image": "images/accessories/piano/maxtone_akbc76d.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "Steel Guitar Stand",
-    "description": "Foldable steel guitar stand designed to securely hold acoustic, electric, and bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
-    "category": "accessories",
-    "type": "guitar",
-    "image": "images/accessories/guitar/maxtone_gsc101b.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "Double Guitar Stand",
-    "description": "Foldable double guitar stand designed to securely hold two acoustic, electric, or bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
-    "category": "accessories",
-    "type": "guitar",
-    "image": "images/accessories/guitar/maxtone_gs1040.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "Microphone Stand",
-    "description": "Adjustable microphone stand designed to provide stable support for wired and wireless microphones during live performances, rehearsals, studio recording, presentations, classrooms, and home use. Durable steel construction with adjustable height for versatile positioning.",
-    "category": "accessories",
-    "type": "stands",
-    "image": "images/accessories/stands/maxtone_tmsc127.png",
-    "colors": ["Black"]
-  },
-  {
-    "name": "Music Stand",
-    "description": "Adjustable music stand designed to securely hold sheet music, books, and scores during practice, rehearsals, performances, classrooms, and home use. Lightweight and portable design with adjustable height for comfortable viewing.",
-    "category": "accessories",
-    "type": "stands",
-    "image": "images/accessories/stands/maxtone_tmsc59.png",
-    "colors": ["Black"]
+    "colors": [
+      "Clear Lacquer"
+    ]
   },
   {
     "name": "Melodion 32 Keys",
@@ -843,7 +691,9 @@
     "category": "wind",
     "type": "melodions",
     "image": "images/wind/melodions/maxtone_mc32.png",
-    "colors": ["Blue"]
+    "colors": [
+      "Blue"
+    ]
   },
   {
     "name": "Melodion 37 Keys",
@@ -851,6 +701,412 @@
     "category": "wind",
     "type": "melodions",
     "image": "images/wind/melodions/maxtone_mn37d.png",
-    "colors": ["Black", "Blue", "Red"]
+    "colors": [
+      "Black",
+      "Blue",
+      "Red"
+    ]
+  },
+  {
+    "name": "Soprano Recorder",
+    "description": "Soprano recorder made from durable ABS resin, designed for music education, classroom use, and beginner players. Produces a clear, balanced tone and is easy to maintain.",
+    "category": "wind",
+    "type": "recorder",
+    "image": "images/wind/recorders/maxtone_tr59.png",
+    "colors": [
+      "Ivory"
+    ]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone designed for students, music schools, and performers. Features durable construction, smooth key action, and a rich, balanced tone suitable for practice and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc21abl.png",
+    "colors": [
+      "Antique Brass Lacquer"
+    ]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved bell, detachable bell, and black pearl key touches. Ideal for students, schools, and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx68a_l2.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring an antique brass finish, hand-engraved bell, detachable bell, and black pearl key touches. Designed for students, music schools, and live performance.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx68abs.png",
+    "colors": [
+      "Antique Brass"
+    ]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Professional Eb alto saxophone featuring a clear lacquer finish, hand-engraved detachable bell, and white pearl key touches. Ideal for students, music schools, and live performances.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc51al.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "Alto Saxophone",
+    "description": "Eb alto saxophone with a clear lacquer finish, hand-engraved bell, and warm, balanced tone. An excellent choice for beginners, students, and school bands.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sxc29al.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "Soprano Saxophone",
+    "description": "Bb soprano saxophone with a clear lacquer finish, designed for students, school bands, and developing musicians. Features a detachable bell and a warm, balanced tone.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_tsc22l.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "Tenor Saxophone",
+    "description": "Professional Bb tenor saxophone designed for students, music schools, and performers. Features an unlacquered finish, detachable bell, black pearl key touches, and a rich, resonant tone.",
+    "category": "wind",
+    "type": "saxophone",
+    "image": "images/wind/saxophones/maxtone_sx58t21.png",
+    "colors": [
+      "Unlacquered Brass"
+    ]
+  },
+  {
+    "name": "Fiberglass Sousaphone",
+    "description": "Professional Bb fiberglass sousaphone designed for marching bands, parades, and outdoor performances. Features a lightweight fiberglass body with durable brass and cupronickel components for excellent projection and comfort.",
+    "category": "wind",
+    "type": "sousaphone",
+    "image": "images/wind/sousaphones/maxtone_tspc30fg.png",
+    "colors": [
+      "White",
+      "Gold"
+    ]
+  },
+  {
+    "name": "Trumpet",
+    "description": "Bb trumpet with a clear lacquer finish, designed for students, school bands, and developing musicians. Produces a bright, balanced tone with reliable intonation.",
+    "category": "wind",
+    "type": "trumpet",
+    "image": "images/wind/trumpets/maxtone_ttc21l.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "BBb Tuba",
+    "description": "Professional BBb tuba featuring a clear lacquer finish, stainless steel pistons, and a full, resonant tone. Designed for concert bands, orchestras, and music education.",
+    "category": "wind",
+    "type": "tuba",
+    "image": "images/wind/tubas/maxtone_ttc53l4.png",
+    "colors": [
+      "Clear Lacquer"
+    ]
+  },
+  {
+    "name": "Percussion Bell Set",
+    "description": "Complete percussion bell set designed for music education, classroom activities, and orchestral training. Includes a full range of chromatic bells with a durable carrying case for easy transport and storage.",
+    "category": "percussion",
+    "type": "bell-set",
+    "image": "images/percussion/bell_sets/maxtone_pbs531set.png",
+    "colors": [
+      "Silver",
+      "Black"
+    ]
+  },
+  {
+    "name": "Two-Tone Bongos",
+    "description": "Compact two-tone bongo set featuring basswood shells and genuine buffalo skin heads, delivering bright, authentic Latin percussion sound for beginners, students, and performers.",
+    "category": "percussion",
+    "type": "bongo",
+    "image": "images/percussion/bongos/maxtone_bc2r.png",
+    "colors": [
+      "Natural Wood",
+      "Red"
+    ]
+  },
+  {
+    "name": "Wood Cajon",
+    "description": "Wooden cajon featuring durable construction and a rich, resonant tone, ideal for acoustic performances, music education, and percussion practice.",
+    "category": "percussion",
+    "type": "cajon",
+    "image": "images/percussion/cajons/maxtone_wbc46.png",
+    "colors": [
+      "Natural Wood"
+    ]
+  },
+  {
+    "name": "Wood Conga Set",
+    "description": "Professional wooden conga set with adjustable stand, delivering rich tone and durable construction for stage performances, music schools, and percussion ensembles.",
+    "category": "percussion",
+    "type": "conga",
+    "image": "images/percussion/congas/maxtone_wdc33sb.png",
+    "colors": [
+      "Vintage Sunburst"
+    ]
+  },
+  {
+    "name": "3-Piece Marching Drum Set",
+    "description": "Compact 3-piece marching drum set with carrier, designed for school bands, marching ensembles, and parade performances. Lightweight construction with durable hardware for reliable outdoor use.",
+    "category": "percussion",
+    "type": "marching",
+    "image": "images/percussion/marching/maxtone_src816.png",
+    "colors": [
+      "White"
+    ]
+  },
+  {
+    "name": "Marching Drum",
+    "description": "Professional marching drum series designed for school bands, parades, and marching ensembles. Available in bass, tenor, and snare configurations with multiple sizes for every performance need.",
+    "category": "percussion",
+    "type": "marching",
+    "image": "images/percussion/marching/maxtone_marching_drum.png",
+    "colors": [
+      "White",
+      "Black",
+      "Red"
+    ]
+  },
+  {
+    "name": "Quatrio Marching Drum Set",
+    "description": "Professional four-drum marching set designed for marching bands, drum corps, and school ensembles. Features lightweight construction with an ergonomic carrier for comfort during performances.",
+    "category": "percussion",
+    "type": "marching",
+    "image": "images/percussion/marching/maxtone_src817.png",
+    "colors": [
+      "White"
+    ]
+  },
+  {
+    "name": "Space Tom Set",
+    "description": "Professional space tom drum set with chrome-plated hardware and adjustable tuning system, ideal for orchestral percussion, concert bands, marching ensembles, and live performances.",
+    "category": "percussion",
+    "type": "space tom",
+    "image": "images/percussion/space_tom/maxtone_rt68b.png",
+    "colors": [
+      "Chrome"
+    ]
+  },
+  {
+    "name": "Steel Tongue Drum",
+    "description": "Steel tongue drum with a rich, soothing tone, ideal for music education, meditation, relaxation, and percussion performances. Includes a pair of mallets and a padded carry bag.",
+    "category": "percussion",
+    "type": "steel-tongue-drum",
+    "image": "images/percussion/steel_tongue_drums/maxtone_hpc_series.png",
+    "colors": [
+      "Silver",
+      "Black",
+      "Golden",
+      "Antique Brass"
+    ]
+  },
+  {
+    "name": "Latin Drum",
+    "description": "Professional single tom drum designed for drum set expansion or replacement, featuring durable construction and a bright, balanced tone suitable for practice and live performance. Available :13’’-14’’ or 14’’ 15’’",
+    "category": "percussion",
+    "type": "tom",
+    "image": "images/percussion/toms/maxtone_lt156c.png",
+    "colors": [
+      "Black",
+      "Red",
+      "White"
+    ]
+  },
+  {
+    "name": "Orchestra Xylophone",
+    "description": "Traditional finger cymbals designed for rhythm accompaniment, dance performances, music education, and percussion ensembles.",
+    "category": "percussion",
+    "type": "xylophones",
+    "image": "images/percussion/xylophones/maxtone_fg16b.png",
+    "colors": [
+      "Brass"
+    ]
+  },
+  {
+    "name": "Drum Double Pedal",
+    "description": "Professional double bass drum pedal designed for fast, smooth, and precise performance, offering excellent control, stability, and durability for advanced drumming techniques.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_dp2020tw.png",
+    "colors": [
+      "Gray",
+      "Black"
+    ]
+  },
+  {
+    "name": "Drum Hardware",
+    "description": "Professional drum hardware including stands, pedals, and mounting accessories designed to provide stability, durability, and reliable performance for drum kits.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_208_series.png",
+    "colors": [
+      "Natural Wood",
+      "Red",
+      "Yellow",
+      "Blue",
+      "Green",
+      "Black",
+      "White"
+    ]
+  },
+  {
+    "name": "Drum Head",
+    "description": "Replacement drum head designed for acoustic drums, providing reliable durability, consistent tuning, and responsive performance for practice, recording, and live use.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_drum_head_series.png",
+    "colors": [
+      "White",
+      "Clear",
+      "Black"
+    ]
+  },
+  {
+    "name": "Drum Parts Series",
+    "description": "Replacement drum parts designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for schools, music stores, and professional drummers.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_c_series.png",
+    "colors": [
+      "Chrome",
+      "Black"
+    ]
+  },
+  {
+    "name": "Drum Parts Series",
+    "description": "Collection of replacement drum components designed for repairing, maintaining, and upgrading acoustic drum kits. Ideal for music schools, workshops, and professional drummers.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_cd_series.png",
+    "colors": [
+      "Chrome",
+      "Black"
+    ]
+  },
+  {
+    "name": "Drum Pedal",
+    "description": "Durable drum pedal designed to deliver smooth, responsive action and reliable performance for drummers of all skill levels.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_dp2020.png",
+    "colors": [
+      "Gray",
+      "Black"
+    ]
+  },
+  {
+    "name": "Drum Throne",
+    "description": "Replacement drum throne designed for repairing, expanding, or customizing acoustic drum kits. Durable wooden construction suitable for practice and performance.",
+    "category": "accessories",
+    "type": "drums",
+    "image": "images/accessories/drums/maxtone_tfc202.png",
+    "colors": [
+      "Natural Wood"
+    ]
+  },
+  {
+    "name": "Double Guitar Stand",
+    "description": "Foldable double guitar stand designed to securely hold two acoustic, electric, or bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
+    "category": "accessories",
+    "type": "guitar",
+    "image": "images/accessories/guitar/maxtone_gs1040.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Steel Guitar Stand",
+    "description": "Foldable steel guitar stand designed to securely hold acoustic, electric, and bass guitars. Ideal for music classrooms, studios, rehearsal spaces, performances, and home use.",
+    "category": "accessories",
+    "type": "guitar",
+    "image": "images/accessories/guitar/maxtone_gsc101b.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Adjustable Piano Bench",
+    "description": "Height-adjustable piano bench with a padded seat, designed for pianists, keyboard players, music classrooms, studios, and home practice. Provides comfortable seating and stable support during performances and lessons.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_pbc40.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "X-Style Keyboard Stand",
+    "description": "Adjustable X-style keyboard stand designed to provide stable support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick height changes, making it suitable for classrooms, studios, rehearsals, performances, and home use.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_akbc75.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "XX-Style Keyboard Stand",
+    "description": "Heavy-duty XX-style keyboard stand designed to provide enhanced stability and support for portable keyboards and digital pianos. Features a clamping lever with wing nut adjustment for quick and secure height adjustments, making it ideal for classrooms, studios, rehearsals, performances, and home use.",
+    "category": "accessories",
+    "type": "piano",
+    "image": "images/accessories/piano/maxtone_akbc76d.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Microphone Stand",
+    "description": "Adjustable microphone stand designed to provide stable support for wired and wireless microphones during live performances, rehearsals, studio recording, presentations, classrooms, and home use. Durable steel construction with adjustable height for versatile positioning.",
+    "category": "accessories",
+    "type": "stands",
+    "image": "images/accessories/stands/maxtone_tmsc127.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Music Stand",
+    "description": "Adjustable music stand designed to securely hold sheet music, books, and scores during practice, rehearsals, performances, classrooms, and home use. Lightweight and portable design with adjustable height for comfortable viewing.",
+    "category": "accessories",
+    "type": "stands",
+    "image": "images/accessories/stands/maxtone_tmsc59.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Adjustable Shoulder Rest",
+    "description": "Adjustable shoulder rest designed to provide comfort, stability, and proper playing posture for violinists. Suitable for students, music schools, rehearsals, and professional performances.",
+    "category": "accessories",
+    "type": "violin",
+    "image": "images/accessories/violin/adjustable_shoulder_rest.png",
+    "colors": [
+      "Black"
+    ]
+  },
+  {
+    "name": "Violin Case",
+    "description": "Protective violin case designed for safe storage and transportation. Features a durable exterior, padded interior, and accessory compartment, making it ideal for students, teachers, and professional musicians.",
+    "category": "accessories",
+    "type": "violin",
+    "image": "images/accessories/violin/violin_case.png",
+    "colors": [
+      "Black"
+    ]
   }
 ]
