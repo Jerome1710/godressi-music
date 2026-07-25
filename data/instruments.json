@@ -167,89 +167,90 @@
   {
     "name": "Student Cello",
     "description": "Acoustic cello with a laminated spruce top and laminated maple back and sides. Finished in black matte and fitted with rosewood parts, making it suitable for beginners, music schools, and orchestras.",
-    "category": "strings",
-    "type": "cello",
-    "image": "images/strings/cello/student_cello_black.png",
+    "category": "cello",
+    "type": "acoustic",
+    "image": "images/cellos/acoustic/student_cello_black.png",
     "colors": ["Black"]
   },
   {
     "name": "Antique Cello",
     "description": "Acoustic cello featuring a solid spruce top, maple back and sides, ebony fingerboard, and boxwood fittings with decorative pins. Finished in a natural antique satin for a warm traditional appearance.",
-    "category": "strings",
-    "type": "cello",
-    "image": "images/strings/cello/antique_cello.png",
+    "category": "cello",
+    "type": "acoustic",
+    "image": "images/cellos/acoustic/antique_cello.png",
     "colors": ["Natural"]
   },
+
   {
     "name": "Hand Varnished Violin",
-    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, hand-applied varnish, ebony fittings with pins, and a Pernambuco bow with ebony frog. Designed for intermediate and advanced players.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/hand_varnished_violin.png",
+    "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, hand-applied varnish, ebony fittings with pins, and a Pernambuco bow with an ebony frog. Designed for intermediate and advanced players.",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/hand_varnished_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Alcohol Varnish Violin",
-    "description": "Acoustic violin featuring a solid spruce top, flamed maple back and sides, alcohol varnish finish, ebony fittings with pins, and a Pernambuco bow with ebony frog.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/alcohol_varnish_violin.png",
+    "description": "Acoustic violin featuring a solid spruce top, flamed maple back and sides, alcohol varnish finish, ebony fittings with pins, and a Pernambuco bow with an ebony frog.",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/alcohol_varnish_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Flamed Maple Violin",
     "description": "Acoustic violin with a solid spruce top, flamed maple back and sides, ebony fittings, and an ebony frog bow. Offers a balanced tone suitable for music education and performance.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/flamed_maple_violin.png",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/flamed_maple_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Solid Maple Violin",
     "description": "Acoustic violin with a solid spruce top, solid maple back and sides, boxwood fittings, inlaid purfling, and a rosewood frog bow. Features a lightly flamed maple finish.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/solid_maple_violin.png",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/solid_maple_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Solid Maple Viola",
     "description": "Acoustic viola featuring a solid spruce top, solid maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Suitable for students and ensemble performance.",
-    "category": "strings",
-    "type": "viola",
-    "image": "images/strings/viola/solid_maple_viola.png",
+    "category": "viola",
+    "type": "acoustic",
+    "image": "images/violas/acoustic/solid_maple_viola.png",
     "colors": ["Natural"]
   },
   {
     "name": "Clear Spruce Violin",
     "description": "Acoustic violin with a solid spruce top, maple back and sides, ebony fittings, inlaid purfling, and an ebony frog bow. Designed for reliable tone and comfortable playability.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/clear_spruce_violin.png",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/clear_spruce_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Coffee Matte Violin",
     "description": "Acoustic violin featuring a solid spruce top, maple back and sides, old rosewood fittings, inlaid purfling, and a rosewood frog bow. Finished in a light coffee matte color.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/coffee_matte_violin.png",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/coffee_matte_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Student Violin",
     "description": "Acoustic violin with a solid spruce top, maple back and sides, hardwood fittings, inlaid purfling, and a rosewood frog bow. Ideal for beginners, schools, and music academies.",
-    "category": "strings",
-    "type": "violin",
-    "image": "images/strings/violin/student_violin.png",
+    "category": "violin",
+    "type": "acoustic",
+    "image": "images/violins/acoustic/student_violin.png",
     "colors": ["Natural"]
   },
   {
     "name": "Electric Violin",
     "description": "Electric violin featuring a maple head, maple and composite body, and ebony accessories. Designed for silent practice, live performance, and amplified playing.",
-    "category": "strings",
-    "type": "electric violin",
-    "image": "images/strings/electric_violin/electric_violin.png",
+    "category": "violin",
+    "type": "electric",
+    "image": "images/violins/electric/electric_violin.png",
     "colors": ["Black", "White"]
   },
 
